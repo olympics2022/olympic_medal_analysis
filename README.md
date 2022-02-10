@@ -38,9 +38,9 @@ The purpose of this project is, as selected by the members of the team, to deter
 ### Data Sources
 * [Wikipedia](http://www.wikipedia.com):  total medal count per country for each of the games
 * [Kaggle](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results/discussion/264987): Competitor information and medals won per competitor 
-* [Need to Cite]:  Historical GDP per capita data per country
-* [Need to Cite]:  Historical population data per country
-* [Need to Cite]:  Latitude and longitude data for each country
+* [Our World In Data](https://ourworldindata.org/grapher/maddison-data-gdp-per-capita-in-2011us-single-benchmark):  Historical GDP per capita data per country
+* [The World Bank](https://data.worldbank.org/indicator/SP.POP.TOTL):  Historical population data per country
+* [Kaggle](https://www.kaggle.com/paultimothymooney/latitude-and-longitude-for-every-country-and-state):  Latitude and longitude data for each country
 
 ### Data Processing Strategy
 A number of challeges presented decisions the group needed to make regarding the scope of the analysis.  With regard to the two seasons of the Olympic Games, we chose to
