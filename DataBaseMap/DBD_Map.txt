@@ -1,0 +1,43 @@
+# Blades of Glory Group
+# Final Project
+# DBD Map
+
+
+Olympic_Project
+-
+KeyID PK int
+CompetitorID int
+NOC string FK >- MedalCount.CountryCode
+Year int
+Season string
+Host string #This will need to be brought in
+
+
+GDP
+-
+Code PK string FK >- Olympic_Project.NOC
+Year int
+GDPperC float
+
+Population
+----
+CountryCode PK string FK >- Olympic_Project.NOC
+Year int
+Population bigint
+
+MedalCount
+------------
+Country string
+CountryCode string # This will need to be brought in
+Year int
+Season string
+Gold int
+Silver int
+Bronze int
+
+Countries
+----
+NOC PK int FK >- Olympic_Project.NOC # This will need to be brought in
+Country string
+lat float
+long float
