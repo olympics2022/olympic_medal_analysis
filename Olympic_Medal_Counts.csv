@@ -20,13 +20,13 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 19,2012,Summer,Argentina,ARG,1,1,2,4
 20,2016,Summer,Argentina,ARG,3,1,0,4
 21,1960,Summer,Argentina,ARG,0,1,1,2
-22,2020-21,Summer,Argentina,ARG,0,1,2,3
+22,2020,Summer,Argentina,ARG,0,1,2,3
 23,1996,Summer,Armenia,ARM,1,1,0,2
 24,2000,Summer,Armenia,ARM,0,0,1,1
 25,2008,Summer,Armenia,ARM,0,1,4,5
 26,2012,Summer,Armenia,ARM,0,1,1,2
 27,2016,Summer,Armenia,ARM,1,3,0,4
-28,2020-21,Summer,Armenia,ARM,0,2,2,4
+28,2020,Summer,Armenia,ARM,0,2,2,4
 29,1964,Summer,Australia,AUS,6,2,10,18
 30,1968,Summer,Australia,AUS,5,7,5,17
 31,1972,Summer,Australia,AUS,8,7,2,17
@@ -41,7 +41,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 40,2012,Summer,Australia,AUS,8,15,12,35
 41,2016,Summer,Australia,AUS,8,11,10,29
 42,1960,Summer,Australia,AUS,8,8,6,22
-43,2020-21,Summer,Australia,AUS,17,7,22,46
+43,2020,Summer,Australia,AUS,17,7,22,46
 44,2000,Summer,Australia*,AUS,16,25,17,58
 45,1968,Summer,Austria,AUT,0,2,2,4
 46,1972,Summer,Austria,AUT,0,1,2,3
@@ -56,14 +56,14 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 55,2008,Summer,Austria,AUT,0,1,2,3
 56,2016,Summer,Austria,AUT,0,0,1,1
 57,1960,Summer,Austria,AUT,1,1,0,2
-58,2020-21,Summer,Austria,AUT,1,1,5,7
+58,2020,Summer,Austria,AUT,1,1,5,7
 59,1996,Summer,Azerbaijan,AZE,0,1,0,1
 60,2000,Summer,Azerbaijan,AZE,2,0,1,3
 61,2004,Summer,Azerbaijan,AZE,1,0,4,5
 62,2008,Summer,Azerbaijan,AZE,1,1,4,6
 63,2012,Summer,Azerbaijan,AZE,2,2,5,9
 64,2016,Summer,Azerbaijan,AZE,1,7,10,18
-65,2020-21,Summer,Azerbaijan,AZE,0,3,4,7
+65,2020,Summer,Azerbaijan,AZE,0,3,4,7
 66,1964,Summer,Bahamas,BAH,1,0,0,1
 67,1992,Summer,Bahamas,BAH,0,0,1,1
 68,1996,Summer,Bahamas,BAH,0,1,0,1
@@ -72,10 +72,10 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 71,2008,Summer,Bahamas,BAH,0,1,1,2
 72,2012,Summer,Bahamas,BAH,1,0,0,1
 73,2016,Summer,Bahamas,BAH,1,0,1,2
-74,2020-21,Summer,Bahamas,BAH,2,0,0,2
+74,2020,Summer,Bahamas,BAH,2,0,0,2
 75,2012,Summer,Bahrain,BRN,1,0,0,1
 76,2016,Summer,Bahrain,BRN,1,1,0,2
-77,2020-21,Summer,Bahrain,BRN,0,1,0,1
+77,2020,Summer,Bahrain,BRN,0,1,0,1
 78,2000,Summer,Barbados,BAR,0,0,1,1
 79,1996,Summer,Belarus,BLR,1,6,8,15
 80,2000,Summer,Belarus,BLR,3,3,11,17
@@ -83,7 +83,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 82,2008,Summer,Belarus,BLR,3,4,7,14
 83,2012,Summer,Belarus,BLR,2,5,3,10
 84,2016,Summer,Belarus,BLR,1,4,4,9
-85,2020-21,Summer,Belarus,BLR,1,3,3,7
+85,2020,Summer,Belarus,BLR,1,3,3,7
 86,1964,Summer,Belgium,BEL,2,0,1,3
 87,1968,Summer,Belgium,BEL,0,1,1,2
 88,1972,Summer,Belgium,BEL,0,2,0,2
@@ -99,11 +99,11 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 98,2012,Summer,Belgium,BEL,0,1,2,3
 99,2016,Summer,Belgium,BEL,2,2,2,6
 100,1960,Summer,Belgium,BEL,0,2,2,4
-101,2020-21,Summer,Belgium,BEL,3,1,3,7
+101,2020,Summer,Belgium,BEL,3,1,3,7
 102,1976,Summer,Bermuda,BER,0,0,1,1
-103,2020-21,Summer,Bermuda,BER,1,0,0,1
+103,2020,Summer,Bermuda,BER,1,0,0,1
 104,2012,Summer,Botswana,BOT,0,1,0,1
-105,2020-21,Summer,Botswana,BOT,0,0,1,1
+105,2020,Summer,Botswana,BOT,0,0,1,1
 106,1964,Summer,Brazil,BRA,0,0,1,1
 107,1968,Summer,Brazil,BRA,0,1,2,3
 108,1972,Summer,Brazil,BRA,0,0,2,2
@@ -118,7 +118,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 117,2008,Summer,Brazil,BRA,3,4,10,17
 118,2012,Summer,Brazil,BRA,3,5,9,17
 119,1960,Summer,Brazil,BRA,0,0,2,2
-120,2020-21,Summer,Brazil,BRA,7,6,8,21
+120,2020,Summer,Brazil,BRA,7,6,8,21
 121,2016,Summer,Brazil,BRA,7,6,6,19
 122,1960,Summer,British West Indies ,BWI,0,0,2,2
 123,1964,Summer,Bulgaria,BUL,3,5,2,10
@@ -135,8 +135,8 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 134,2012,Summer,Bulgaria,BUL,0,2,1,3
 135,2016,Summer,Bulgaria,BUL,0,1,2,3
 136,1960,Summer,Bulgaria,BUL,1,3,3,7
-137,2020-21,Summer,Bulgaria,BUL,3,1,2,6
-138,2020-21,Summer,Burkina Faso ,BUR,0,0,1,1
+137,2020,Summer,Bulgaria,BUL,3,1,2,6
+138,2020,Summer,Burkina Faso ,BUR,0,0,1,1
 139,1996,Summer,Burundi,BDI,1,0,0,1
 140,2016,Summer,Burundi,BDI,0,1,0,1
 141,1968,Summer,Cameroon,CMR,0,1,0,1
@@ -158,7 +158,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 157,2012,Summer,Canada,CAN,2,6,10,18
 158,2016,Summer,Canada,CAN,4,3,15,22
 159,1960,Summer,Canada,CAN,0,1,0,1
-160,2020-21,Summer,Canada,CAN,7,6,11,24
+160,2020,Summer,Canada,CAN,7,6,11,24
 161,1976,Summer,Canada*,CAN,0,5,6,11
 162,1988,Summer,Chile,CHI,0,1,0,1
 163,2000,Summer,Chile,CHI,0,0,1,1
@@ -172,7 +172,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 171,2004,Summer,China,CHN,32,17,14,63
 172,2012,Summer,China,CHN,38,31,22,91
 173,2016,Summer,China,CHN,26,18,26,70
-174,2020-21,Summer,China,CHN,38,32,18,88
+174,2020,Summer,China,CHN,38,32,18,88
 175,2008,Summer,China*,CHN,48,22,30,100
 176,1984,Summer,Chinese Taipei,TPE,0,0,1,1
 177,1992,Summer,Chinese Taipei,TPE,0,1,0,1
@@ -182,7 +182,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 181,2008,Summer,Chinese Taipei,TPE,1,1,2,4
 182,2012,Summer,Chinese Taipei,TPE,1,0,1,2
 183,2016,Summer,Chinese Taipei,TPE,1,0,2,3
-184,2020-21,Summer,Chinese Taipei,TPE,2,4,6,12
+184,2020,Summer,Chinese Taipei,TPE,2,4,6,12
 185,1972,Summer,Colombia,COL,0,1,2,3
 186,1984,Summer,Colombia,COL,0,1,0,1
 187,1988,Summer,Colombia,COL,0,0,1,1
@@ -192,7 +192,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 191,2008,Summer,Colombia,COL,0,2,1,3
 192,2012,Summer,Colombia,COL,1,3,5,9
 193,2016,Summer,Colombia,COL,3,2,3,8
-194,2020-21,Summer,Colombia,COL,0,4,1,5
+194,2020,Summer,Colombia,COL,0,4,1,5
 195,1988,Summer,Costa Rica,CRC,0,1,0,1
 196,1996,Summer,Costa Rica,CRC,1,0,0,1
 197,2000,Summer,Costa Rica,CRC,0,0,2,2
@@ -203,7 +203,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 202,2008,Summer,Croatia,CRO,0,2,3,5
 203,2012,Summer,Croatia,CRO,3,1,2,6
 204,2016,Summer,Croatia,CRO,5,3,2,10
-205,2020-21,Summer,Croatia,CRO,3,3,2,8
+205,2020,Summer,Croatia,CRO,3,3,2,8
 206,1964,Summer,Cuba,CUB,0,1,0,1
 207,1968,Summer,Cuba,CUB,0,4,0,4
 208,1972,Summer,Cuba,CUB,3,1,4,8
@@ -216,7 +216,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 215,2008,Summer,Cuba,CUB,3,10,17,30
 216,2012,Summer,Cuba,CUB,5,3,7,15
 217,2016,Summer,Cuba,CUB,5,2,4,11
-218,2020-21,Summer,Cuba,CUB,7,3,5,15
+218,2020,Summer,Cuba,CUB,7,3,5,15
 219,2012,Summer,Cyprus,CYP,0,1,0,1
 220,1996,Summer,Czech Republic,CZE,4,3,4,11
 221,2000,Summer,Czech Republic,CZE,2,3,3,8
@@ -224,7 +224,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 223,2008,Summer,Czech Republic,CZE,3,3,1,7
 224,2012,Summer,Czech Republic,CZE,4,3,4,11
 225,2016,Summer,Czech Republic,CZE,1,2,7,10
-226,2020-21,Summer,Czech Republic ,CZE,4,4,3,11
+226,2020,Summer,Czech Republic ,CZE,4,4,3,11
 227,1964,Summer,Czechoslovakia,TCH,5,6,3,14
 228,1968,Summer,Czechoslovakia,TCH,7,2,4,13
 229,1972,Summer,Czechoslovakia,TCH,2,4,2,8
@@ -248,14 +248,14 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 247,2012,Summer,Denmark,DEN,2,4,3,9
 248,2016,Summer,Denmark,DEN,2,6,7,15
 249,1960,Summer,Denmark,DEN,2,3,1,6
-250,2020-21,Summer,Denmark,DEN,3,4,4,11
+250,2020,Summer,Denmark,DEN,3,4,4,11
 251,1988,Summer,Djibouti,DJI,0,0,1,1
 252,1984,Summer,Dominican Republic,DOM,0,0,1,1
 253,2004,Summer,Dominican Republic,DOM,1,0,0,1
 254,2008,Summer,Dominican Republic,DOM,1,1,0,2
 255,2012,Summer,Dominican Republic,DOM,1,1,0,2
 256,2016,Summer,Dominican Republic,DOM,0,0,1,1
-257,2020-21,Summer,Dominican Republic,DOM,0,3,2,5
+257,2020,Summer,Dominican Republic,DOM,0,3,2,5
 258,1968,Summer,East Germany,GDR,9,9,7,25
 259,1972,Summer,East Germany,GDR,20,23,23,66
 260,1976,Summer,East Germany,GDR,40,25,25,90
@@ -263,14 +263,14 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 262,1988,Summer,East Germany,GDR,37,35,30,102
 263,1996,Summer,Ecuador,ECU,1,0,0,1
 264,2008,Summer,Ecuador,ECU,0,1,0,1
-265,2020-21,Summer,Ecuador,ECU,2,1,0,3
+265,2020,Summer,Ecuador,ECU,2,1,0,3
 266,1984,Summer,Egypt,EGY,0,1,0,1
 267,2004,Summer,Egypt,EGY,1,1,3,5
 268,2008,Summer,Egypt,EGY,0,0,2,2
 269,2012,Summer,Egypt,EGY,0,3,1,4
 270,2016,Summer,Egypt,EGY,0,0,3,3
 271,1960,Summer,Egypt,EGY,0,1,1,2
-272,2020-21,Summer,Egypt,EGY,1,1,4,6
+272,2020,Summer,Egypt,EGY,1,1,4,6
 273,2004,Summer,Eritrea,ERI,0,0,1,1
 274,1992,Summer,Estonia,EST,1,0,1,2
 275,2000,Summer,Estonia,EST,1,0,2,3
@@ -278,7 +278,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 277,2008,Summer,Estonia,EST,1,1,0,2
 278,2012,Summer,Estonia,EST,0,1,1,2
 279,2016,Summer,Estonia,EST,0,0,1,1
-280,2020-21,Summer,Estonia,EST,1,0,1,2
+280,2020,Summer,Estonia,EST,1,0,1,2
 281,1964,Summer,Ethiopia,ETH,1,0,0,1
 282,1968,Summer,Ethiopia,ETH,1,1,0,2
 283,1972,Summer,Ethiopia,ETH,0,0,2,2
@@ -291,9 +291,9 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 290,2012,Summer,Ethiopia,ETH,3,2,3,8
 291,2016,Summer,Ethiopia,ETH,1,2,5,8
 292,1960,Summer,Ethiopia,ETH,1,0,0,1
-293,2020-21,Summer,Ethiopia,ETH,1,1,2,4
+293,2020,Summer,Ethiopia,ETH,1,1,2,4
 294,2016,Summer,Fiji,FIJ,1,0,0,1
-295,2020-21,Summer,Fiji,FIJ,1,0,1,2
+295,2020,Summer,Fiji,FIJ,1,0,1,2
 296,1964,Summer,Finland,FIN,3,0,2,5
 297,1968,Summer,Finland,FIN,1,2,1,4
 298,1972,Summer,Finland,FIN,3,1,4,8
@@ -309,7 +309,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 308,2012,Summer,Finland,FIN,0,2,1,3
 309,2016,Summer,Finland,FIN,0,0,1,1
 310,1960,Summer,Finland,FIN,1,1,3,5
-311,2020-21,Summer,Finland,FIN,0,0,2,2
+311,2020,Summer,Finland,FIN,0,0,2,2
 312,1960,Summer,Formosa ,RCF,0,1,0,1
 313,1996,Summer,Yugoslavia,YUG,1,1,2,4
 314,2000,Summer,Yugoslavia,YUG,1,1,1,3
@@ -328,7 +328,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 327,2012,Summer,France,FRA,11,11,13,35
 328,2016,Summer,France,FRA,10,18,14,42
 329,1960,Summer,France,FRA,0,2,3,5
-330,2020-21,Summer,France,FRA,10,12,11,33
+330,2020,Summer,France,FRA,10,12,11,33
 331,2012,Summer,Gabon,GAB,0,1,0,1
 332,1996,Summer,Georgia,GEO,0,0,2,2
 333,2000,Summer,Georgia,GEO,0,0,6,6
@@ -336,7 +336,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 335,2008,Summer,Georgia,GEO,3,2,2,7
 336,2012,Summer,Georgia,GEO,1,2,3,6
 337,2016,Summer,Georgia,GEO,2,1,4,7
-338,2020-21,Summer,Georgia ,GEO,2,5,1,8
+338,2020,Summer,Georgia ,GEO,2,5,1,8
 339,1992,Summer,Germany,GER,33,21,28,82
 340,1996,Summer,Germany,GER,20,18,27,65
 341,2000,Summer,Germany,GER,13,17,26,56
@@ -344,12 +344,12 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 343,2008,Summer,Germany,GER,16,11,14,41
 344,2012,Summer,Germany,GER,11,20,13,44
 345,2016,Summer,Germany,GER,17,10,15,42
-346,2020-21,Summer,Germany,GER,10,11,16,37
+346,2020,Summer,Germany,GER,10,11,16,37
 347,1964,Summer,Ghana,GHA,0,0,1,1
 348,1972,Summer,Ghana,GHA,0,0,1,1
 349,1992,Summer,Ghana,GHA,0,0,1,1
 350,1960,Summer,Ghana,GHA,0,1,0,1
-351,2020-21,Summer,Ghana,GHA,0,0,1,1
+351,2020,Summer,Ghana,GHA,0,0,1,1
 352,1964,Summer,Great Britain,GBR,4,12,2,18
 353,1968,Summer,Great Britain,GBR,5,5,3,13
 354,1972,Summer,Great Britain,GBR,4,5,9,18
@@ -364,7 +364,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 363,2008,Summer,Great Britain,GBR,19,13,19,51
 364,2016,Summer,Great Britain,GBR,27,23,17,67
 365,1960,Summer,Great Britain,GBR,2,6,12,20
-366,2020-21,Summer,Great Britain,GBR,22,21,22,65
+366,2020,Summer,Great Britain,GBR,22,21,22,65
 367,2012,Summer,Great Britain*,GBR,29,18,18,65
 368,1968,Summer,Greece,GRE,0,0,1,1
 369,1972,Summer,Greece,GRE,0,2,0,2
@@ -378,17 +378,17 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 377,2012,Summer,Greece,GRE,0,0,2,2
 378,2016,Summer,Greece,GRE,3,1,2,6
 379,1960,Summer,Greece,GRE,1,0,0,1
-380,2020-21,Summer,Greece,GRE,2,1,1,4
+380,2020,Summer,Greece,GRE,2,1,1,4
 381,2004,Summer,Greece*,GRE,6,6,4,16
 382,2012,Summer,Grenada,GRN,1,0,0,1
 383,2016,Summer,Grenada,GRN,0,1,0,1
-384,2020-21,Summer,Grenada,GRN,0,0,1,1
+384,2020,Summer,Grenada,GRN,0,0,1,1
 385,2012,Summer,Guatemala,GUA,0,1,0,1
 386,1980,Summer,Guyana,GUY,0,0,1,1
 387,1996,Summer,Hong Kong,HKG,1,0,0,1
 388,2004,Summer,Hong Kong,HKG,0,1,0,1
 389,2012,Summer,Hong Kong,HKG,0,0,1,1
-390,2020-21,Summer,Hong Kong ,HKG,1,2,3,6
+390,2020,Summer,Hong Kong ,HKG,1,2,3,6
 391,1964,Summer,Hungary,HUN,10,7,5,22
 392,1968,Summer,Hungary,HUN,10,10,12,32
 393,1972,Summer,Hungary,HUN,6,13,16,35
@@ -403,7 +403,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 402,2012,Summer,Hungary,HUN,8,4,6,18
 403,2016,Summer,Hungary,HUN,8,3,4,15
 404,1960,Summer,Hungary,HUN,6,8,7,21
-405,2020-21,Summer,Hungary,HUN,6,7,7,20
+405,2020,Summer,Hungary,HUN,6,7,7,20
 406,1984,Summer,Iceland,ISL,0,0,1,1
 407,2000,Summer,Iceland,ISL,0,0,1,1
 408,2008,Summer,Iceland,ISL,0,1,0,1
@@ -420,7 +420,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 419,2012,Summer,India,IND,0,2,4,6
 420,2016,Summer,India,IND,0,1,1,2
 421,1960,Summer,India,IND,0,1,0,1
-422,2020-21,Summer,India,IND,1,2,4,7
+422,2020,Summer,India,IND,1,2,4,7
 423,1988,Summer,Indonesia,INA,0,1,0,1
 424,1992,Summer,Indonesia,INA,2,2,1,5
 425,1996,Summer,Indonesia,INA,1,1,2,4
@@ -429,7 +429,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 428,2008,Summer,Indonesia,INA,1,1,4,6
 429,2012,Summer,Indonesia,INA,0,2,1,3
 430,2016,Summer,Indonesia,INA,1,2,0,3
-431,2020-21,Summer,Indonesia,INA,1,1,3,5
+431,2020,Summer,Indonesia,INA,1,1,3,5
 432,1964,Summer,Iran,IRI,0,0,2,2
 433,1968,Summer,Iran,IRI,2,1,2,5
 434,1972,Summer,Iran,IRI,0,2,1,3
@@ -443,7 +443,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 442,2012,Summer,Iran,IRI,7,5,1,13
 443,2016,Summer,Iran,IRI,3,1,4,8
 444,1960,Summer,Iran,IRI,0,1,3,4
-445,2020-21,Summer,Iran,IRI,3,2,2,7
+445,2020,Summer,Iran,IRI,3,2,2,7
 446,1960,Summer,Iraq ,IRQ,0,0,1,1
 447,1964,Summer,Ireland,IRL,0,0,1,1
 448,1980,Summer,Ireland,IRL,0,1,1,2
@@ -454,14 +454,14 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 453,2008,Summer,Ireland,IRL,0,1,2,3
 454,2012,Summer,Ireland,IRL,1,1,4,6
 455,2016,Summer,Ireland,IRL,0,2,0,2
-456,2020-21,Summer,Ireland,IRL,2,0,2,4
+456,2020,Summer,Ireland,IRL,2,0,2,4
 457,1992,Summer,Israel,ISR,0,1,1,2
 458,1996,Summer,Israel,ISR,0,0,1,1
 459,2000,Summer,Israel,ISR,0,0,1,1
 460,2004,Summer,Israel,ISR,1,0,1,2
 461,2008,Summer,Israel,ISR,0,0,1,1
 462,2016,Summer,Israel,ISR,0,0,2,2
-463,2020-21,Summer,Israel,ISR,2,0,2,4
+463,2020,Summer,Israel,ISR,2,0,2,4
 464,1964,Summer,Italy,ITA,10,10,7,27
 465,1968,Summer,Italy,ITA,3,4,9,16
 466,1972,Summer,Italy,ITA,5,3,10,18
@@ -477,10 +477,10 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 476,2012,Summer,Italy,ITA,8,9,11,28
 477,2016,Summer,Italy,ITA,8,12,8,28
 478,1960,Summer,Italy,ITA,13,10,13,36
-479,2020-21,Summer,Italy,ITA,10,10,20,40
+479,2020,Summer,Italy,ITA,10,10,20,40
 480,1984,Summer,Ivory Coast,CIV,0,1,0,1
 481,2016,Summer,Ivory Coast,CIV,1,0,1,2
-482,2020-21,Summer,Ivory Coast,CIV,0,0,1,1
+482,2020,Summer,Ivory Coast,CIV,0,0,1,1
 483,1968,Summer,Jamaica,JAM,0,1,0,1
 484,1972,Summer,Jamaica,JAM,0,0,1,1
 485,1976,Summer,Jamaica,JAM,1,1,0,2
@@ -494,7 +494,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 493,2008,Summer,Jamaica,JAM,5,4,2,11
 494,2012,Summer,Jamaica,JAM,4,5,3,12
 495,2016,Summer,Jamaica,JAM,6,3,2,11
-496,2020-21,Summer,Jamaica,JAM,4,1,4,9
+496,2020,Summer,Jamaica,JAM,4,1,4,9
 497,1968,Summer,Japan,JPN,11,7,7,25
 498,1972,Summer,Japan,JPN,13,8,8,29
 499,1976,Summer,Japan,JPN,9,6,10,25
@@ -508,17 +508,17 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 507,2012,Summer,Japan,JPN,7,14,17,38
 508,2016,Summer,Japan,JPN,12,8,21,41
 509,1960,Summer,Japan,JPN,4,7,7,18
-510,2020-21,Summer,Japan,JPN,27,14,17,58
+510,2020,Summer,Japan,JPN,27,14,17,58
 511,1964,Summer,Japan*,JPN,16,5,8,29
 512,2016,Summer,Jordan,JOR,1,0,0,1
-513,2020-21,Summer,Jordan,JOR,0,1,1,2
+513,2020,Summer,Jordan,JOR,0,1,1,2
 514,1996,Summer,Kazakhstan,KAZ,3,4,4,11
 515,2000,Summer,Kazakhstan,KAZ,3,4,0,7
 516,2004,Summer,Kazakhstan,KAZ,1,4,3,8
 517,2008,Summer,Kazakhstan,KAZ,2,3,4,9
 518,2012,Summer,Kazakhstan,KAZ,3,2,6,11
 519,2016,Summer,Kazakhstan,KAZ,3,5,10,18
-520,2020-21,Summer,Kazakhstan,KAZ,0,0,8,8
+520,2020,Summer,Kazakhstan,KAZ,0,0,8,8
 521,1964,Summer,Kenya,KEN,0,0,1,1
 522,1968,Summer,Kenya,KEN,3,4,2,9
 523,1972,Summer,Kenya,KEN,2,3,4,9
@@ -531,22 +531,22 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 530,2008,Summer,Kenya,KEN,6,4,6,16
 531,2012,Summer,Kenya,KEN,2,4,7,13
 532,2016,Summer,Kenya,KEN,6,6,1,13
-533,2020-21,Summer,Kenya,KEN,4,4,2,10
+533,2020,Summer,Kenya,KEN,4,4,2,10
 534,2016,Summer,Kosovo,KOS,1,0,0,1
-535,2020-21,Summer,Kosovo,KOS,2,0,0,2
+535,2020,Summer,Kosovo,KOS,2,0,0,2
 536,2000,Summer,Kuwait,KUW,0,0,1,1
 537,2012,Summer,Kuwait,KUW,0,0,1,1
-538,2020-21,Summer,Kuwait,KUW,0,0,1,1
+538,2020,Summer,Kuwait,KUW,0,0,1,1
 539,2000,Summer,Kyrgyzstan,KGZ,0,0,1,1
 540,2008,Summer,Kyrgyzstan,KGZ,0,1,2,3
-541,2020-21,Summer,Kyrgyzstan,KGZ,0,2,1,3
+541,2020,Summer,Kyrgyzstan,KGZ,0,2,1,3
 542,1992,Summer,Latvia,LAT,0,2,1,3
 543,1996,Summer,Latvia,LAT,0,1,0,1
 544,2000,Summer,Latvia,LAT,1,1,1,3
 545,2004,Summer,Latvia,LAT,0,4,0,4
 546,2008,Summer,Latvia,LAT,1,1,1,3
 547,2012,Summer,Latvia,LAT,1,0,1,2
-548,2020-21,Summer,Latvia,LAT,1,0,1,2
+548,2020,Summer,Latvia,LAT,1,0,1,2
 549,1972,Summer,Lebanon,LBN,0,1,0,1
 550,1980,Summer,Lebanon,LBN,0,0,1,1
 551,1992,Summer,Lithuania,LTU,1,0,1,2
@@ -556,14 +556,14 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 555,2008,Summer,Lithuania,LTU,0,3,2,5
 556,2012,Summer,Lithuania,LTU,2,0,3,5
 557,2016,Summer,Lithuania,LTU,0,1,3,4
-558,2020-21,Summer,Lithuania,LTU,0,1,0,1
+558,2020,Summer,Lithuania,LTU,0,1,0,1
 559,2000,Summer,Macedonia,MKD,0,0,1,1
 560,1992,Summer,Malaysia,MAS,0,0,1,1
 561,1996,Summer,Malaysia,MAS,0,1,1,2
 562,2008,Summer,Malaysia,MAS,0,1,0,1
 563,2012,Summer,Malaysia,MAS,0,1,1,2
 564,2016,Summer,Malaysia,MAS,0,4,1,5
-565,2020-21,Summer,Malaysia,MAS,0,1,1,2
+565,2020,Summer,Malaysia,MAS,0,1,1,2
 566,2008,Summer,Mauritius,MRI,0,0,1,1
 567,1964,Summer,Mexico,MEX,0,0,1,1
 568,1972,Summer,Mexico,MEX,0,1,0,1
@@ -579,12 +579,12 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 578,2012,Summer,Mexico,MEX,1,3,4,8
 579,2016,Summer,Mexico,MEX,0,3,2,5
 580,1960,Summer,Mexico,MEX,0,0,1,1
-581,2020-21,Summer,Mexico,MEX,0,0,4,4
+581,2020,Summer,Mexico,MEX,0,0,4,4
 582,1968,Summer,Mexico*,MEX,3,3,3,9
 583,1996,Summer,Moldova,MDA,0,1,1,2
 584,2000,Summer,Moldova,MDA,0,1,1,2
 585,2008,Summer,Moldova,MDA,0,0,1,1
-586,2020-21,Summer,Moldova,MDA,0,0,1,1
+586,2020,Summer,Moldova,MDA,0,0,1,1
 587,1968,Summer,Mongolia,MGL,0,1,3,4
 588,1972,Summer,Mongolia,MGL,0,1,0,1
 589,1976,Summer,Mongolia,MGL,0,1,0,1
@@ -596,7 +596,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 595,2008,Summer,Mongolia,MGL,2,2,0,4
 596,2012,Summer,Mongolia,MGL,0,2,3,5
 597,2016,Summer,Mongolia,MGL,0,1,1,2
-598,2020-21,Summer,Mongolia,MGL,0,1,3,4
+598,2020,Summer,Mongolia,MGL,0,1,3,4
 599,2012,Summer,Montenegro,MNE,0,1,0,1
 600,1984,Summer,Morocco,MAR,2,0,0,2
 601,1988,Summer,Morocco,MAR,1,0,2,3
@@ -608,12 +608,12 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 607,2012,Summer,Morocco,MAR,0,0,1,1
 608,2016,Summer,Morocco,MAR,0,0,1,1
 609,1960,Summer,Morocco,MAR,0,1,0,1
-610,2020-21,Summer,Morocco,MAR,1,0,0,1
+610,2020,Summer,Morocco,MAR,1,0,0,1
 611,1996,Summer,Mozambique,MOZ,0,0,1,1
 612,2000,Summer,Mozambique,MOZ,1,0,0,1
 613,1992,Summer,Namibia,NAM,0,2,0,2
 614,1996,Summer,Namibia,NAM,0,2,0,2
-615,2020-21,Summer,Namibia,NAM,0,1,0,1
+615,2020,Summer,Namibia,NAM,0,1,0,1
 616,1964,Summer,Netherlands,NED,2,4,4,10
 617,1968,Summer,Netherlands,NED,3,3,1,7
 618,1972,Summer,Netherlands,NED,3,1,1,5
@@ -630,7 +630,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 629,2016,Summer,Netherlands,NED,8,7,4,19
 630,1988,Summer,Netherlands Antilles,AHO,0,1,0,1
 631,1960,Summer,Netherlands,NED,0,1,2,3
-632,2020-21,Summer,Netherlands,NED,10,12,14,36
+632,2020,Summer,Netherlands,NED,10,12,14,36
 633,1964,Summer,New Zealand,NZL,3,0,2,5
 634,1968,Summer,New Zealand,NZL,1,0,2,3
 635,1972,Summer,New Zealand,NZL,1,1,1,3
@@ -645,7 +645,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 644,2012,Summer,New Zealand,NZL,6,2,5,13
 645,2016,Summer,New Zealand,NZL,4,9,5,18
 646,1960,Summer,New Zealand,NZL,2,0,1,3
-647,2020-21,Summer,New Zealand,NZL,7,6,7,20
+647,2020,Summer,New Zealand,NZL,7,6,7,20
 648,1972,Summer,Niger,NIG,0,0,1,1
 649,2016,Summer,Niger,NIG,0,1,0,1
 650,1964,Summer,Nigeria,NGR,0,0,1,1
@@ -657,7 +657,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 656,2004,Summer,Nigeria,NGR,0,0,2,2
 657,2008,Summer,Nigeria,NGR,0,3,2,5
 658,2016,Summer,Nigeria,NGR,0,0,1,1
-659,2020-21,Summer,Nigeria,NGR,0,1,1,2
+659,2020,Summer,Nigeria,NGR,0,1,1,2
 660,1972,Summer,North Korea,PRK,1,1,3,5
 661,1976,Summer,North Korea,PRK,1,1,0,2
 662,1980,Summer,North Korea,PRK,0,3,2,5
@@ -668,7 +668,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 667,2008,Summer,North Korea,PRK,2,2,2,6
 668,2012,Summer,North Korea,PRK,4,0,3,7
 669,2016,Summer,North Korea,PRK,2,3,2,7
-670,2020-21,Summer,North Macedonia,MKD,0,1,0,1
+670,2020,Summer,North Macedonia,MKD,0,1,0,1
 671,1968,Summer,Norway,NOR,1,1,0,2
 672,1972,Summer,Norway,NOR,2,1,1,4
 673,1976,Summer,Norway,NOR,1,1,0,2
@@ -682,7 +682,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 681,2012,Summer,Norway,NOR,2,1,1,4
 682,2016,Summer,Norway,NOR,0,0,4,4
 683,1960,Summer,Norway,NOR,1,0,0,1
-684,2020-21,Summer,Norway,NOR,4,2,2,8
+684,2020,Summer,Norway,NOR,4,2,2,8
 685,1964,Summer,Pakistan,PAK,0,1,0,1
 686,1968,Summer,Pakistan,PAK,1,0,0,1
 687,1972,Summer,Pakistan,PAK,0,1,0,1
@@ -701,7 +701,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 700,1992,Summer,Philippines,PHI,0,0,1,1
 701,1996,Summer,Philippines,PHI,0,1,0,1
 702,2016,Summer,Philippines,PHI,0,1,0,1
-703,2020-21,Summer,Philippines,PHI,1,2,1,4
+703,2020,Summer,Philippines,PHI,1,2,1,4
 704,1964,Summer,Poland,POL,7,6,10,23
 705,1968,Summer,Poland,POL,5,2,11,18
 706,1972,Summer,Poland,POL,7,5,9,21
@@ -716,7 +716,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 715,2012,Summer,Poland,POL,3,2,6,11
 716,2016,Summer,Poland,POL,2,3,6,11
 717,1960,Summer,Poland,POL,4,6,11,21
-718,2020-21,Summer,Poland,POL,4,5,5,14
+718,2020,Summer,Poland,POL,4,5,5,14
 719,1976,Summer,Portugal,POR,0,2,0,2
 720,1984,Summer,Portugal,POR,1,0,2,3
 721,1988,Summer,Portugal,POR,1,0,0,1
@@ -727,20 +727,20 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 726,2012,Summer,Portugal,POR,0,1,0,1
 727,2016,Summer,Portugal,POR,0,0,1,1
 728,1960,Summer,Portugal,POR,0,1,0,1
-729,2020-21,Summer,Portugal,POR,1,1,2,4
+729,2020,Summer,Portugal,POR,1,1,2,4
 730,1976,Summer,Puerto Rico,PUR,0,0,1,1
 731,1984,Summer,Puerto Rico,PUR,0,1,1,2
 732,1992,Summer,Puerto Rico,PUR,0,0,1,1
 733,1996,Summer,Puerto Rico,PUR,0,0,1,1
 734,2012,Summer,Puerto Rico,PUR,0,1,1,2
 735,2016,Summer,Puerto Rico,PUR,1,0,0,1
-736,2020-21,Summer,Puerto Rico,PUR,1,0,0,1
+736,2020,Summer,Puerto Rico,PUR,1,0,0,1
 737,1992,Summer,Qatar,QAT,0,0,1,1
 738,2000,Summer,Qatar,QAT,0,0,1,1
 739,2012,Summer,Qatar,QAT,0,1,1,2
 740,2016,Summer,Qatar,QAT,0,1,0,1
-741,2020-21,Summer,Qatar,QAT,2,0,1,3
-742,2020-21,Summer,ROC ,ROC,20,28,23,71
+741,2020,Summer,Qatar,QAT,2,0,1,3
+742,2020,Summer,ROC ,ROC,20,28,23,71
 743,1964,Summer,Romania,ROU,2,4,6,12
 744,1968,Summer,Romania,ROU,4,6,5,15
 745,1972,Summer,Romania,ROU,3,6,7,16
@@ -756,7 +756,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 755,2012,Summer,Romania,ROU,2,4,1,7
 756,2016,Summer,Romania,ROU,1,1,2,4
 757,1960,Summer,Romania,ROU,3,1,6,10
-758,2020-21,Summer,Romania,ROU,1,3,0,4
+758,2020,Summer,Romania,ROU,1,3,0,4
 759,1996,Summer,Russia,RUS,26,21,16,63
 760,2000,Summer,Russia,RUS,32,28,29,89
 761,2004,Summer,Russia,RUS,28,26,36,90
@@ -764,16 +764,16 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 763,2012,Summer,Russia,RUS,20,21,27,68
 764,2016,Summer,Russia,RUS,19,17,20,56
 765,2008,Summer,Samoa,SAM,0,1,0,1
-766,2020-21,Summer,San Marino ,SMR,0,1,2,3
+766,2020,Summer,San Marino ,SMR,0,1,2,3
 767,2000,Summer,Saudi Arabia,KSA,0,1,1,2
 768,2012,Summer,Saudi Arabia,KSA,0,0,1,1
-769,2020-21,Summer,Saudi Arabia,KSA,0,1,0,1
+769,2020,Summer,Saudi Arabia,KSA,0,1,0,1
 770,1988,Summer,Senegal,SEN,0,1,0,1
 771,2008,Summer,Serbia,SRB,0,1,2,3
 772,2012,Summer,Serbia,SRB,1,1,2,4
 773,2016,Summer,Serbia,SRB,2,4,2,8
 774,2004,Summer,Serbia and Montenegro,SCG,0,2,0,2
-775,2020-21,Summer,Serbia,SRB,3,1,5,9
+775,2020,Summer,Serbia,SRB,3,1,5,9
 776,2008,Summer,Singapore,SGP,0,1,0,1
 777,2012,Summer,Singapore,SGP,0,0,2,2
 778,2016,Summer,Singapore,SGP,1,0,0,1
@@ -784,7 +784,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 783,2008,Summer,Slovakia,SVK,3,3,0,6
 784,2012,Summer,Slovakia,SVK,0,1,3,4
 785,2016,Summer,Slovakia,SVK,2,2,0,4
-786,2020-21,Summer,Slovakia,SVK,1,2,1,4
+786,2020,Summer,Slovakia,SVK,1,2,1,4
 787,1992,Summer,Slovenia,SLO,0,0,2,2
 788,1996,Summer,Slovenia,SLO,0,2,0,2
 789,2000,Summer,Slovenia,SLO,2,0,0,2
@@ -792,7 +792,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 791,2008,Summer,Slovenia,SLO,1,2,2,5
 792,2012,Summer,Slovenia,SLO,1,1,2,4
 793,2016,Summer,Slovenia,SLO,1,2,1,4
-794,2020-21,Summer,Slovenia,SLO,3,1,1,5
+794,2020,Summer,Slovenia,SLO,3,1,1,5
 795,1992,Summer,South Africa,RSA,0,2,0,2
 796,1996,Summer,South Africa,RSA,3,1,1,5
 797,2000,Summer,South Africa,RSA,0,2,3,5
@@ -801,7 +801,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 800,2012,Summer,South Africa,RSA,4,1,1,6
 801,2016,Summer,South Africa,RSA,2,6,2,10
 802,1960,Summer,South Africa,RSA,0,1,2,3
-803,2020-21,Summer,South Africa,RSA,1,2,0,3
+803,2020,Summer,South Africa,RSA,1,2,0,3
 804,1964,Summer,South Korea,KOR,0,2,1,3
 805,1968,Summer,South Korea,KOR,0,1,1,2
 806,1972,Summer,South Korea,KOR,0,1,0,1
@@ -814,7 +814,7 @@ Primary Key,Year,Season,Nation,NOC Code,Gold,Silver,Bronze,Total
 813,2008,Summer,South Korea,KOR,13,11,8,32
 814,2012,Summer,South Korea,KOR,13,9,8,30
 815,2016,Summer,South Korea,KOR,9,3,9,21
-816,2020-21,Summer,South Korea,KOR,6,4,10,20
+816,2020,Summer,South Korea,KOR,6,4,10,20
 817,1988,Summer,South Korea*,KOR,12,10,11,33
 818,1964,Summer,Soviet Union,"SOV (1968 W)
 code from French Union des républiques socialistes soviétiques (URSS)",30,31,35,96
@@ -842,7 +842,7 @@ code from French Union des républiques socialistes soviétiques (URSS)",80,69,46,
 834,2012,Summer,Spain,ESP,4,10,6,20
 835,2016,Summer,Spain,ESP,7,4,6,17
 836,1960,Summer,Spain,ESP,0,0,1,1
-837,2020-21,Summer,Spain,ESP,3,8,6,17
+837,2020,Summer,Spain,ESP,3,8,6,17
 838,1992,Summer,Spain*,ESP,13,7,2,22
 839,2000,Summer,Sri Lanka,SRI,0,1,0,1
 840,2008,Summer,Sudan,SUD,0,1,0,1
@@ -863,7 +863,7 @@ code from French Union des républiques socialistes soviétiques (URSS)",80,69,46,
 855,2012,Summer,Sweden,SWE,1,4,3,8
 856,2016,Summer,Sweden,SWE,2,6,3,11
 857,1960,Summer,Sweden,SWE,1,2,3,6
-858,2020-21,Summer,Sweden,SWE,3,6,0,9
+858,2020,Summer,Sweden,SWE,3,6,0,9
 859,1964,Summer,Switzerland,SUI,1,2,1,4
 860,1968,Summer,Switzerland,SUI,0,1,4,5
 861,1972,Summer,Switzerland,SUI,0,3,0,3
@@ -879,11 +879,11 @@ code from French Union des républiques socialistes soviétiques (URSS)",80,69,46,
 871,2012,Summer,Switzerland,SUI,2,2,0,4
 872,2016,Summer,Switzerland,SUI,3,2,2,7
 873,1960,Summer,Switzerland,SUI,0,3,3,6
-874,2020-21,Summer,Switzerland,SUI,3,4,6,13
+874,2020,Summer,Switzerland,SUI,3,4,6,13
 875,1984,Summer,Syria,SYR,0,1,0,1
 876,1996,Summer,Syria,SYR,1,0,0,1
 877,2004,Summer,Syria,SYR,0,0,1,1
-878,2020-21,Summer,Syria,SYR,0,0,1,1
+878,2020,Summer,Syria,SYR,0,0,1,1
 879,1968,Summer,Taiwan,TWN,0,0,1,1
 880,2008,Summer,Tajikistan,TJK,0,1,1,2
 881,2012,Summer,Tajikistan,TJK,0,0,1,1
@@ -899,7 +899,7 @@ code from French Union des républiques socialistes soviétiques (URSS)",80,69,46,
 891,2008,Summer,Thailand,THA,2,2,2,6
 892,2012,Summer,Thailand,THA,0,2,2,4
 893,2016,Summer,Thailand,THA,2,2,2,6
-894,2020-21,Summer,Thailand,THA,1,0,1,2
+894,2020,Summer,Thailand,THA,1,0,1,2
 895,2008,Summer,Togo,TOG,0,0,1,1
 896,1996,Summer,Tonga,TGA,0,1,0,1
 897,1964,Summer,Trinidad and Tobago,TTO,0,1,2,3
@@ -917,7 +917,7 @@ code from French Union des républiques socialistes soviétiques (URSS)",80,69,46,
 909,2008,Summer,Tunisia,TUN,1,0,0,1
 910,2012,Summer,Tunisia,TUN,2,0,1,3
 911,2016,Summer,Tunisia,TUN,0,0,3,3
-912,2020-21,Summer,Tunisia,TUN,1,1,0,2
+912,2020,Summer,Tunisia,TUN,1,1,0,2
 913,1964,Summer,Turkey,TUR,2,3,1,6
 914,1968,Summer,Turkey,TUR,2,0,0,2
 915,1972,Summer,Turkey,TUR,0,1,0,1
@@ -931,21 +931,21 @@ code from French Union des républiques socialistes soviétiques (URSS)",80,69,46,
 923,2012,Summer,Turkey,TUR,1,1,1,3
 924,2016,Summer,Turkey,TUR,1,3,4,8
 925,1960,Summer,Turkey,TUR,7,2,0,9
-926,2020-21,Summer,Turkey,TUR,2,2,9,13
-927,2020-21,Summer,Turkmenistan ,TKM,0,1,0,1
+926,2020,Summer,Turkey,TUR,2,2,9,13
+927,2020,Summer,Turkmenistan ,TKM,0,1,0,1
 928,1968,Summer,Uganda,UGA,0,1,1,2
 929,1972,Summer,Uganda,UGA,1,1,0,2
 930,1980,Summer,Uganda,UGA,0,1,0,1
 931,1996,Summer,Uganda,UGA,0,0,1,1
 932,2012,Summer,Uganda,UGA,1,0,0,1
-933,2020-21,Summer,Uganda,UGA,2,1,1,4
+933,2020,Summer,Uganda,UGA,2,1,1,4
 934,1996,Summer,Ukraine,UKR,9,2,12,23
 935,2000,Summer,Ukraine,UKR,3,10,10,23
 936,2004,Summer,Ukraine,UKR,8,5,9,22
 937,2008,Summer,Ukraine,UKR,7,4,11,22
 938,2012,Summer,Ukraine,UKR,5,4,10,19
 939,2016,Summer,Ukraine,UKR,2,5,4,11
-940,2020-21,Summer,Ukraine,UKR,1,6,12,19
+940,2020,Summer,Ukraine,UKR,1,6,12,19
 941,1992,Summer,Unified Team,EUN,45,38,29,112
 942,2004,Summer,United Arab Emirates,UAE,1,0,0,1
 943,2016,Summer,United Arab Emirates,UAE,0,0,1,1
@@ -961,7 +961,7 @@ code from French Union des républiques socialistes soviétiques (URSS)",80,69,46,
 953,2012,Summer,United States,USA,47,27,30,104
 954,2016,Summer,United States,USA,46,37,38,121
 955,1960,Summer,United States,USA,34,21,16,71
-956,2020-21,Summer,United States,USA,39,41,33,113
+956,2020,Summer,United States,USA,39,41,33,113
 957,1984,Summer,United States*,USA,83,61,30,174
 958,1996,Summer,United States*,USA,44,32,25,101
 959,1964,Summer,United Team of Germany,EUA,10,22,18,50
@@ -974,7 +974,7 @@ code from French Union des républiques socialistes soviétiques (URSS)",80,69,46,
 966,2008,Summer,Uzbekistan,UZB,0,1,3,4
 967,2012,Summer,Uzbekistan,UZB,0,0,3,3
 968,2016,Summer,Uzbekistan,UZB,4,2,7,13
-969,2020-21,Summer,Uzbekistan,UZB,3,0,2,5
+969,2020,Summer,Uzbekistan,UZB,3,0,2,5
 970,1968,Summer,Venezuela,VEN,1,0,0,1
 971,1976,Summer,Venezuela,VEN,0,1,0,1
 972,1980,Summer,Venezuela,VEN,0,1,0,1
@@ -984,7 +984,7 @@ code from French Union des républiques socialistes soviétiques (URSS)",80,69,46,
 976,2012,Summer,Venezuela,VEN,1,0,0,1
 977,2016,Summer,Venezuela,VEN,0,2,1,3
 978,1960,Summer,Venezuela,VEN,0,0,1,1
-979,2020-21,Summer,Venezuela,VEN,1,3,0,4
+979,2020,Summer,Venezuela,VEN,1,3,0,4
 980,2000,Summer,Vietnam,VIE,0,1,0,1
 981,2008,Summer,Vietnam,VIE,0,1,0,1
 982,2012,Summer,Vietnam,VIE,0,0,1,1
