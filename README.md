@@ -55,7 +55,7 @@ The data collected will be organized in the following graphical DBD map (this an
 
 A basic overview of the summary data for all tables in the database follows:
 
-![image](https://user-images.githubusercontent.com/91292960/155405350-79363a3c-f1a6-49c3-8c61-1516f213fa32.png)
+![image](https://user-images.githubusercontent.com/91292960/155405636-b84a64c1-94d0-4611-9170-d0438739d954.png)
 
 ### Methodology
 
