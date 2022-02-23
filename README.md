@@ -6,7 +6,7 @@ The capstone project is intended to let individuals practice the skills they lea
 groups are challenged not only in their technical skills but also in their analysis and group dynamic skills.
 
 ## Objective
-The purpose of this project is, as selected by the members of the team, to determine if the variables of a country's GDP per capita, population, and number of competitors sent either individually or in aggregated has any predictive value on the total medal count that a country has in the Olympic Games.
+The purpose of this project is, as selected by the members of the team, to determine if the variables of a country's GDP per capita, population, and number of competitors sent either individually or in aggregated has any predictive value on the total medal count that a country has in the Olympic Games.  In order to do that, we have planned a series of linear regressions to test the three single variable hypotheses, namely that the three variables noted above individually have predictive value on the total medal count of a country.  As we expect that those hypotheses will fail or only have week predictive value, we want to test the hypothesis that the three variables in aggregate have predictive value on the medal count using both multi-linear regression and machine learning strategies.
 
 ### Authors
 
@@ -17,12 +17,12 @@ The purpose of this project is, as selected by the members of the team, to deter
 * Ben Thome
 
 ### Methods Used
-* Single-variable linear regression
-* Multi-variable linear regression
+* Single-variable linear regression:  to determine single-variable predictability
+* Multi-variable linear regression:  to determine multi-variable perdictability
 * Unsupervised machine learning
- * Specific models TBDL
+  * No specific models selected, but the intent is to use the unsupervised ML to find unseen groups in the three-dimensional data.
 * Supervised machine learning
- * Specific models TBDL
+  * No specific models selecteed, but we plan to port the groups from the unsupervised ML into supervised ML models to determine predictability.
 
 ### Technologies
 * MS Excel
