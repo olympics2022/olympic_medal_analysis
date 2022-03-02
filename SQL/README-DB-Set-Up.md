@@ -39,3 +39,14 @@
 1. On the Query Tool you should still have the *db_starter_code.sql* file open.
 2. Run each of the lines below the comment *-- Run the following testing scripts one line at a time* separately.
 3. The comments on each line indicate how many rows the command should have found.
+
+# Running the Olympic Medal Analysis Preprocessor Script in PostGres/pgAdmin
+ 1.  In pgAdmin open the ***olympia*** database 
+ 2.  Right click on ***olympia*** and select *Query Tool*
+ 3.  Click on the *Open File* icon in the Query Tool.
+ 4.  Change the directory to the SQL folder and click on *db_preprocessor_scripit.sql*.
+ 5.  This should bring up the preprocessor code SQL script.
+ 6.  Highlight everything down to the comment *-- End of script*
+ 7.  Click on the *Execute/Refresh* icon in the Query Tool (looks like a Play Button) or press F5.
+ 8.  Once the script completes, right click on Tables in the Browser pane and click *Refresh*
+ 9.  Verify that two new tables have been added:  x_medal_share & x_mlr

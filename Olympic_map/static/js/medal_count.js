@@ -583,12 +583,12 @@ console.log(countryNames);
 
 
 // Loop through the cities array and create one marker for each city.
-countryNames.forEach(function(country) {
-    console.log(country)
-    L.marker(country.location)
-    .bindPopup("<h2>" + country.country + ", " + city.population + "</h2> <hr> <h3>Population " + country.population + "</h3>")
-  .addTo(map);
-});
+// countryNames.forEach(function(country) {
+//     console.log(country)
+//     L.marker(country.location)
+//     .bindPopup("<h2>" + country.country + ", " + city.population + "</h2> <hr> <h3>Population " + country.population + "</h3>")
+//   .addTo(map);
+// });
 // Create a base layer that holds all three maps.
 let baseMaps = {
     "Streets": streets,
