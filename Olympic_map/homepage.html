@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Olympic Medal Analysis</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- 1.Custom Font & 2.Jumbotron Image-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+<style type="text/css">
+    body {
+        font-family: 'Helvetica', sans-serif;
+    color: rgb(208, 211, 216) ; 
+  }
+  .jumbotron{
+        
+        background-image:url('https://dnyuz.com/wp-content/uploads/2022/02/China-made-a-statement-with-Olympic-opening-ceremony-750x375.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0%;
+        background-size:cover ;
+        height: 100%;
+    }
+    </style>
+</head>
+<!-- 3.New Background color-->
+<body style="background-color:#3d3d3d;">
+<div class="topnav home">
+    <ul>
+        <li><a class="active" href="homepage.html">Home</a></li>
+        <li><a class="active" href="index.html">Medal Map</a></li>
+    </ul>
+</div>
+  <div class="container">
+    <div class="jumbotron">
+    </div>
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1 style="background-color:black;">Olympic Medal Analysis</h1>
+        <p style="background-color:black;">Write something cool here</p>
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="col-md-2"> -->
+       
+        <h2>Introduction</h2>
+        <p>
+          The purpose of this project is, as selected by the members of the team, to determine if the variables of a country's GDP per capita, population, and number of competitors sent either individually or in aggregated has any predictive value on the total medal count that a country has in the Olympic Games. In order to do that, we have planned a series of linear regressions to test the three single variable hypotheses, namely that the three variables noted above individually have predictive value on the total medal count of a country. As we expect that those hypotheses will fail or only have week predictive value, we want to test the hypothesis that the three variables in aggregate have predictive value on the medal count using both multi-linear regression and machine learning strategies.
+
+          <!-- <select id="selDataset"></select> -->
+        
+            <h2>Methods Used</h2>
+            <p>&#9830;Single-variable linear regression: to determine single-variable predictability </p>
+            <p>&#9830;Multi-variable linear regression: to determine multi-variable perdictability </p>
+            <p>&#9830;Unsupervised machine learning </p>
+            <p>&#9830;Supervised machine learning </p>
+            
+            <h2>Technologies Used</h2>
+            <p>&#9830;MS Excel </p>
+            <p>&#9830;Python </p>
+            <p>&#9830;PostGres </p>
+            <p>&#9830;HTML </p>
+            <p>&#9830;JavaScript </p>
+            
+            
+            <h2>Data Sources</h2>
+            <p>&#9830;Wikipedia: total medal count per country for each of the games </p>
+            <p>&#9830;Kaggle: Competitor information and medals won per competitor </p>
+            <p>&#9830;Our World In Data: Historical GDP per capita data per country </p>
+            <p>&#9830;The World Bank: Historical population data per country </p>
+            <p>&#9830;Kaggle: Latitude and longitude data for each country </p>
+
+          <!-- <div id="sample-metadata" class="panel-body"></div> -->
+        
+      </div>
+      <div class="col-md-5">
+        <div id="bar-plot"></div>
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-5">
+        <div id="myGauge"></div>
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="myDiv"></div>
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  
+
+  <!-- <script src="plots.js"></script> -->
+  <script src="static/js/charts.js"></script>
+  <script src="static/js/medal_count.js"></script>
+  <script src="static/css/style.css"></script>
+
+</body>
+
+</html>
