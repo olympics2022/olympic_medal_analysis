@@ -3,25 +3,6 @@ for the Blades of Glory group project.
 
 Output Tables:  x_medal_share, x_mlr */
 
--- Create temporary table aggregating athlete counts per NOC per year with host information
-DROP TABLE IF EXISTS t_athlete_counts;
-CREATE TABLE t_athlete_counts AS
-
-	SELECT 
-		noc,
-		year,
-		season,
-		COUNT(DISTINCT competitorid) AS athlete_count,
-		host
-	
-	FROM olympic_project
-
-	WHERE year > 1959
-
-	GROUP BY year, season, noc, host
-
-	ORDER BY year, season, noc;
-
 -- Create temporary table of Olympic game years and their associated season
 DROP TABLE IF EXISTS t_olympic_years;
 CREATE TABLE t_olympic_years AS
@@ -29,7 +10,7 @@ CREATE TABLE t_olympic_years AS
 		year,
 		season
 	
-	FROM t_athlete_counts
+	FROM athlete_count   
 	
 	ORDER BY year, season;
 
@@ -74,11 +55,11 @@ CREATE TABLE t_count_and_pop AS
 		ath.noc,
 		ath.year,
 		ath.season,
-		ath.athlete_count,
+		ath.competitor_count AS athlete_count,
 		ath.host,
 		pop.population
 	
-	FROM t_athlete_counts AS ath
+	FROM athlete_count AS ath
 	
 	LEFT JOIN t_population AS pop ON ath.noc = pop.countrycode AND ath.year = pop.year;
 	
@@ -234,7 +215,6 @@ CREATE TABLE x_medal_share AS (
 DROP TABLE IF EXISTS t_annual_total;
 DROP TABLE IF EXISTS t_annual_total1;
 DROP TABLE IF EXISTS t_annual_total2;
-DROP TABLE IF EXISTS t_athlete_counts;
 DROP TABLE IF EXISTS t_count_and_gdp;
 DROP TABLE IF EXISTS t_count_and_medal;
 DROP TABLE IF EXISTS t_count_and_pop;
