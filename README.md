@@ -22,6 +22,7 @@ The purpose of this project is, as selected by the members of the team, to deter
 * Unsupervised machine learning
   * K-Means
 * Supervised machine learning
+  * Linear Regression ML model 
   * Balanced Random Forest classifier
   * Easy Ensemble classifier
 
@@ -88,7 +89,8 @@ variable and multi-variable) as well as the machine modelling.
 
 We decided to first determine if any of the three variables (GDP per capita, population, and number of competitors) individually had any correlation to number of medals
 won by a given country.  In addition, we wanted to look at a multi-variable linear regression with those three variables in addition to the boolean variable of being the
-host country of the given Olympic games.
+host country of the given Olympic games.  Furthermore, we fed the four variables into a linear regression supervised machine learning model to see if that could produce
+a better fit.
 
 In looking at the four variables above we wanted to group the data into clusters that may show similarities other than simply the individual variables themselves so we
 performed a K-Means unsupervised model and subsequently took those groups and ran them through two supervised machine-learning models: Balanced Random Forest classifier and
@@ -128,16 +130,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis nunc non 
 
 ## Getting Started
 1.  Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2.  Raw data is being kept --here--
-3.  Data processing/transformation scripts ar being kept ---here--
-4.  Required libraries
-  * Pandas
-  * Jupyter
-  * SQLAlchemy
-  * NumPy
-  * MatPlotLib
-  * SKLearn
-  * hvplot
-  * path
-  * Plotly
-5.  [Instructions for final presentation]  
+2.  Raw data is being kept --[here](https://github.com/olympics2022/olympic_medal_analysis/tree/main/Resources)--
+3.  SQL Scripts for database set-up and mergers are being kept --[here](https://github.com/olympics2022/olympic_medal_analysis/tree/main/SQL)--
+4.  Data processing/transformation scripts are being kept --[here](https://github.com/olympics2022/olympic_medal_analysis/tree/main/ETL)--
+5.  Required libraries
+    * Pandas
+    * Jupyter
+    * SQLAlchemy
+    * NumPy
+    * MatPlotLib
+    * SKLearn
+    * hvplot
+    * path
+    * Plotly
+6.  Analysis processing scripts are held here --[here](https://github.com/olympics2022/olympic_medal_analysis/tree/main/Analysis)--  
