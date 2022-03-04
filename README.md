@@ -18,18 +18,27 @@ The purpose of this project is, as selected by the members of the team, to deter
 
 ### Methods Used
 * Single-variable linear regression:  to determine single-variable predictability
-* Multi-variable linear regression:  to determine multi-variable perdictability
+* Multi-variable linear regression:  to determine multi-variable predictability
 * Unsupervised machine learning
-  * No specific models selected, but the intent is to use the unsupervised ML to find unseen groups in the three-dimensional data.
+  * K-Means
 * Supervised machine learning
-  * No specific models selecteed, but we plan to port the groups from the unsupervised ML into supervised ML models to determine predictability.
+  * Linear Regression ML model 
+  * Balanced Random Forest classifier
+  * Easy Ensemble classifier
 
 ### Technologies
 * MS Excel
 * Python
   * Pandas
   * Jupyter
-* PostGres
+  * SQLAlchemy
+  * NumPy
+  * MatPlotLib
+  * SKLearn
+  * hvplot
+  * path
+  * Plotly
+* PostGres / SQL
 * HTML
 * JavaScript
 
@@ -59,13 +68,60 @@ A basic overview of the summary data for all tables in the database follows:
 
 ### Methodology
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis nunc non imperdiet auctor. Suspendisse vitae massa nulla. Cras lacinia placerat urna, pretium tempor diam. Vivamus quis sem id quam consequat luctus. Donec aliquam odio massa, id feugiat mauris gravida non. Sed vel pharetra mauris, in semper ante. Nunc dictum aliquam finibus. Curabitur porta, lacus nec efficitur auctor, magna ligula pharetra eros, sed mollis nisl urna at enim. Nam posuere sem quis nisl mollis tempor. Ut mollis consectetur lectus ut ornare. Quisque aliquam lacus odio, eu lobortis ipsum condimentum ut. Curabitur a felis elementum, accumsan nulla non, placerat libero. Sed porta bibendum sapien. Etiam iaculis arcu nec commodo placerat. Sed metus magna, posuere vitae sapien vitae, pretium accumsan dolor.
+#### MS Excel
 
-In ut aliquam est. Quisque neque nulla, dictum et tempor et, cursus at enim. Integer vulputate tincidunt diam, a hendrerit quam facilisis ut. Fusce nec magna vitae orci tempor aliquet. Etiam ac neque vel risus dictum porttitor nec ut libero. Pellentesque dui felis, volutpat non risus eget, viverra luctus lorem. Proin nec lobortis elit, elementum vulputate urna. Sed venenatis, diam cursus lobortis faucibus, eros arcu dignissim felis, ut aliquam quam quam quis nisi. Nunc porta leo at turpis facilisis placerat ac porta nibh. Sed sodales ligula felis, in egestas sem elementum a. Quisque blandit eros risus, vitae faucibus ipsum molestie eget. Donec non augue posuere, mollis nibh id, porta mauris. Duis nec ultricies purus. Integer facilisis elit in vulputate tincidunt.
+While some of our data was downloaded directly as CSV files, the medal count information was not in CSV format so in order to collect the that data we needed to first
+scrape the Wikipedia sites via MS Excel *Get Data* command.  We also used Excel's VLOOKUP to add information, specifically NOC codes to all the tables for eventual use
+as foreign keys in the database, in addition to some other basic preprocessing to ensure proper formating.
+
+#### PostGres / SQL
+
+Once the Excel-processed CSV files were completed, using SQL, a database was set up within PostGres to hold all the data.  Additionally, we made use of SQL to preprocess
+and merge all the files into the final table from which all analyses would be based from: x_medal_share.
+
+#### Python
+
+We were able to import the x_medal_share into a pandas dataframe within python.  From there we separated Winter from Summer to run the the data separately in as it was
+determined that the dynamics would be sufficiently different to warrant treating them independent of each other.  Python was used to run the linear regressions (single-
+variable and multi-variable) as well as the machine modelling.  
+
+#### Modelling
+
+We decided to first determine if any of the three variables (GDP per capita, population, and number of competitors) individually had any correlation to number of medals
+won by a given country.  In addition, we wanted to look at a multi-variable linear regression with those three variables in addition to the boolean variable of being the
+host country of the given Olympic games.  Furthermore, we fed the four variables into a linear regression supervised machine learning model to see if that could produce
+a better fit.
+
+In looking at the four variables above we wanted to group the data into clusters that may show similarities other than simply the individual variables themselves so we
+performed a K-Means unsupervised model and subsequently took those groups and ran them through two supervised machine-learning models: Balanced Random Forest classifier and
+Easy Ensemble classifier models.
+
 
 ## Results
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis nunc non imperdiet auctor. Suspendisse vitae massa nulla. Cras lacinia placerat urna, pretium tempor diam. Vivamus quis sem id quam consequat luctus. Donec aliquam odio massa, id feugiat mauris gravida non. Sed vel pharetra mauris, in semper ante. Nunc dictum aliquam finibus. Curabitur porta, lacus nec efficitur auctor, magna ligula pharetra eros, sed mollis nisl urna at enim. Nam posuere sem quis nisl mollis tempor. Ut mollis consectetur lectus ut ornare. Quisque aliquam lacus odio, eu lobortis ipsum condimentum ut. Curabitur a felis elementum, accumsan nulla non, placerat libero. Sed porta bibendum sapien. Etiam iaculis arcu nec commodo placerat. Sed metus magna, posuere vitae sapien vitae, pretium accumsan dolor.
+The results of the linear regression models are shown below:
+
+[Summer Linear Regression Plots]
+
+[Winter Linear Regression Plots]
+
+The results of the multi-linear regression model is shown below:
+
+[Summer Multi-linear Regression Plot]
+
+[Winter Multi-linear Regression Plot]
+
+The clustering results from the K-Means unsupervised learning model:
+
+[Summer K-Means Clustering Plot]
+
+[Winter K-Means Clustering Plot]
+
+The Training/Testing Score of the Balanced Random Forest classifier and Easy Emsemble classifier models:
+
+[Summer Scores for both models]
+
+[Winter Scores for both models]
 
 ## Summary
 
@@ -74,9 +130,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis nunc non 
 
 ## Getting Started
 1.  Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2.  Raw data is being kept --here--
-3.  Data processing/transformation scripts ar being kept ---here--
-4.  Required libraries
-  * Pandas
-  * etc.
-5.  [Instructions for final presentation]  
+2.  Raw data is being kept --[here](https://github.com/olympics2022/olympic_medal_analysis/tree/main/Resources)--
+3.  SQL Scripts for database set-up and mergers are being kept --[here](https://github.com/olympics2022/olympic_medal_analysis/tree/main/SQL)--
+4.  Data processing/transformation scripts are being kept --[here](https://github.com/olympics2022/olympic_medal_analysis/tree/main/ETL)--
+5.  Required libraries
+    * Pandas
+    * Jupyter
+    * SQLAlchemy
+    * NumPy
+    * MatPlotLib
+    * SKLearn
+    * hvplot
+    * path
+    * Plotly
+6.  Analysis processing scripts are held here --[here](https://github.com/olympics2022/olympic_medal_analysis/tree/main/Analysis)--  
