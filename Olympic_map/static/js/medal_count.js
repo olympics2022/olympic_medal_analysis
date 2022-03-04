@@ -7,6 +7,7 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
 	maxZoom: 18,
 	accessToken: API_KEY
 });
+
 //  --------------------------------------------------  add a dark layer------------------------------------------------------------
 let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -572,14 +573,27 @@ let map = L.map('mapid', {
         }
     }
  ];
+// Test marker on Afganastan
+  let marker = L.marker([33.7680065,66.2385139]).addTo(map);
+marker.bindPopup("Afghanastan");
 
- var countryNames = countries.map(function(country){
-    countryName = country.Country,
-    Latitude = country.Latitude,
-    Longitude = country.Longitude;
-    return {countryName, Latitude,Longitude}
-});
-console.log(countryNames);
+ // Get data from cities.js
+// let countryData = countries;
+// Loop through the cities array and create one marker for each city.
+// countryData.forEach(function(country) {
+//     console.log(country)
+//     L.marker(country.Latitude, country.Longitude)
+//     .bindPopup("<h2>" + country.country + ", "  )
+//     .addTo(map);
+//   });
+// console.log(countries);
+//  var countryNames = countries.map(function(country){
+//     countryName = country.Country,
+//     Latitude = country.Latitude,
+//     Longitude = country.Longitude;
+//     return {countryName, Latitude,Longitude}
+// });
+// console.log(countryNames);
 
 
 // Loop through the cities array and create one marker for each city.
