@@ -123,7 +123,7 @@ The results of the multi-linear regression model is shown below:
 
 #### Winter Multiple Linear Regression
 
-This analysis tested the impact of the natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country. The results of this analysis is an R-squared value of 0.573, meaning that 57.3 percent of the variance in the share of medals won by each country is explained by those four variable. Each variable has a p-value less than 0.05, meaning each has a statistically significant impact on medal share. The summary of the analysis can be seen below.
+This analysis tested the impact of the natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country. The results of this analysis is an R-squared value of 0.573, meaning that 57.3 percent of the variance in the share of medals won by each country is explained by those four variables. Each variable has a p-value less than 0.05, meaning each has a statistically significant impact on medal share. The summary of the analysis can be seen below.
 
 <img width="533" alt="Winter_MLR_Summary" src="https://user-images.githubusercontent.com/90737940/156902110-39e67ecc-4c95-45e6-a83c-9d0428b0ea96.png">
 
@@ -138,6 +138,14 @@ The Training/Testing Score of the Balanced Random Forest classifier and Easy Ems
 [Summer Scores for both models]
 
 [Winter Scores for both models]
+
+Multiple Linear Regression Machine Learning Model:
+
+#### Winter Multiple Linear Regression Machine Learning Model
+
+A Multiple Linear Regression Machine Learning analysis was also tested. natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country using the SKlearn train_test_split model. The results of this analysis was an R-squared value of 0.563 on the test data, meaning the model was able to explain 56.3 percent of the variance of in the share of medals won by each country. This aligns with the standard Multiple Linear Regression tested (discussed above). Five countries were selected from the 2022 Winter Olympics in China to test this data on. Those countries are the United States, Norway, Italy, China, and Japan. The chart below shows the actual medal count and the predicted medal count using the machine learning model developed.
+
+![2022_Prediced_vs_actual](https://user-images.githubusercontent.com/90737940/156902646-4ae2bed6-cae7-49c0-a68d-0720332b2046.png)
 
 ## Summary
 
