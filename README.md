@@ -103,13 +103,29 @@ The results of the linear regression models are shown below:
 
 [Summer Linear Regression Plots]
 
-[Winter Linear Regression Plots]
+ #### Winter Linear Regression Analysis
+ 
+ - Winter Athlete Share
+![Winter_athlete_share_LR](https://user-images.githubusercontent.com/90737940/156901398-79f79bdf-81e1-42c8-badb-11d22c031238.png)
+This analysis tested the impact of the percentage of athletes participating in the olympics from each country on the percent of the total medals awarded that were won by that country. The results of this Linear Regression analysis is an R-squared value of 0.550, meaning that 55 percent of the variance in share of medals won is explained by the share of athletes by country. With a p-value less than 0.05, athlete share has a statistically significant impact on medal share.
+
+ - Winter GDP per Capita
+![Winter_GDP_LR](https://user-images.githubusercontent.com/90737940/156901693-76144d9e-897d-4e4b-a1a6-fcf93c3cdb03.png)
+This analysis tested the impact of GDP per Capita of participating countries on the percent of the total medals awarded that were won by that country. The results of this Linear Regression analysis is an R-squared value of 0.130, meaning that 13 percent of the variance in share of medals won is explained by GDP per Capita of a given country. With a p-value less than 0.05, GDP per capita has a statistically significant impact on medal share.
+
+ - Winter Population
+![Winter_Population_LR](https://user-images.githubusercontent.com/90737940/156901770-357fee0e-19a2-4d60-99d8-6a8b6ad0438f.png)
+This analysis tested the impact of population of participaing countries on the percent of the total medals awarded that were won by that country. We found that by taking the natural log of population, we achieved better results from the linear regression analysis. The results of this analysis is an R-squared value of 0.028, meaning that 2.8 percent of the variance in share of medals won is explained by the natural log of population of a participating country. With a p-value less than 0.05, the natural log of population has a statistcally significant impact on medal share.
 
 The results of the multi-linear regression model is shown below:
 
 [Summer Multi-linear Regression Plot]
 
-[Winter Multi-linear Regression Plot]
+#### Winter Multiple Linear Regression
+
+This analysis tested the impact of the natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country. The results of this analysis is an R-squared value of 0.573, meaning that 57.3 percent of the variance in the share of medals won by each country is explained by those four variable. Each variable has a p-value less than 0.05, meaning each has a statistically significant impact on medal share. The summary of the analysis can be seen below.
+
+<img width="533" alt="Winter_MLR_Summary" src="https://user-images.githubusercontent.com/90737940/156902110-39e67ecc-4c95-45e6-a83c-9d0428b0ea96.png">
 
 The clustering results from the K-Means unsupervised learning model:
 
