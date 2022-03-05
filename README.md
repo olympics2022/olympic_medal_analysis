@@ -143,9 +143,9 @@ Multiple Linear Regression Machine Learning Model:
 
 #### Winter Multiple Linear Regression Machine Learning Model
 
-A Multiple Linear Regression Machine Learning analysis was also tested. natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country using the SKlearn train_test_split model. The results of this analysis was an R-squared value of 0.563 on the test data, meaning the model was able to explain 56.3 percent of the variance of in the share of medals won by each country. This aligns with the standard Multiple Linear Regression tested (discussed above). Five countries were selected from the 2022 Winter Olympics in China to test this data on. Those countries are the United States, Norway, Italy, China, and Japan. The chart below shows the actual medal count and the predicted medal count using the machine learning model developed.
+A Multiple Linear Regression Machine Learning analysis was also tested. natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country using the SKlearn train_test_split model. The results of this analysis was an R-squared value of 0.563 on the test data, meaning the model was able to explain 56.3 percent of the variance of in the share of medals won by each country. This aligns with the standard Multiple Linear Regression tested (discussed above). Five countries were selected from the 2022 Winter Olympics in China to test this data on. Those countries are the United States, Norway, Italy, China, and Japan. The chart below shows the actual medal count and the predicted medal count using the machine learning model developed for the five selected countries.
 
-![2022_Prediced_vs_actual](https://user-images.githubusercontent.com/90737940/156902646-4ae2bed6-cae7-49c0-a68d-0720332b2046.png)
+![2022_Prediced_vs_actual](https://user-images.githubusercontent.com/90737940/156902700-d92b678c-e775-46d3-9ad6-c2cf9dd7b3ef.png)
 
 ## Summary
 
