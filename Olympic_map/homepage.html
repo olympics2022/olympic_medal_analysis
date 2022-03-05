@@ -12,6 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="static/css/style.css">
 <style type="text/css">
+   /********************************************************************************* JUMBOTRON IMAGE BELOW ******************************************************************************/
     body {
         font-family: 'Helvetica', sans-serif;
     color: rgb(208, 211, 216) ; 
@@ -26,7 +27,7 @@
     }
     </style>
 </head>
-<!-- 3.New Background color-->
+<!-------------------------------------------------------------------------------- Navigation bar & HEADER TEXT -------------------------------------------------------------------------------->
 <body style="background-color:#3d3d3d;">
 <div class="topnav home">
     <ul>
@@ -43,15 +44,11 @@
         <p style="background-color:black;">Authors: Eric Anthony, Ben Bratrud, Cher Hinton, & Ben Thome </p>
       </div>
     </div>
-    <!-- <div class="row">
-      <div class="col-md-2"> -->
-       
+<!--------------------------------------------------------------------------------TEXT BODY BELOW -------------------------------------------------------------------------------------------->
         <h2 style="color:tan;">Introduction</h2>
         <p>
           The purpose of this project is, as selected by the members of the team, to determine if the variables of a country's GDP per capita, population, and number of competitors sent either individually or in aggregated has any predictive value on the total medal count that a country has in the Olympic Games. In order to do that, we have planned a series of linear regressions to test the three single variable hypotheses, namely that the three variables noted above individually have predictive value on the total medal count of a country. As we expect that those hypotheses will fail or only have week predictive value, we want to test the hypothesis that the three variables in aggregate have predictive value on the medal count using both multi-linear regression and machine learning strategies.
 
-          <!-- <select id="selDataset"></select> -->
-        
             <h2 style="color:tan;">Methods Used</h2>
             <p>&#9830;Single-variable linear regression: to determine single-variable predictability </p>
             <p>&#9830;Multi-variable linear regression: to determine multi-variable perdictability </p>
@@ -59,12 +56,25 @@
             <p>&#9830;Supervised machine learning </p>
             
             <h2 style="color:tan;">Technologies Used</h2>
-            <p>&#9830;MS Excel </p>
-            <p>&#9830;Python </p>
-            <p>&#9830;PostGres </p>
-            <p>&#9830;HTML </p>
-            <p>&#9830;JavaScript </p>
-            
+            <OL>
+                <p>&#9830;MS Excel </p>
+                <p>&#9830;Python </p>
+                <ul>
+                <li>Pandas</li>
+                <li>Jupyter</li>
+                <li>SQLAlchemy</li>
+                <li>NumPy</li>
+                <li>MatPlotLib</li>
+                <li>SKLearn</li>
+                <li>hvplot</li>
+                <li>path</li>
+                <li>Plotly</li>
+            </ul>
+                <p>&#9830;PostGres </p>
+                <p>&#9830;HTML </p>
+                <p>&#9830;JavaScript </p>
+            </OL>
+           
             <h2 style="color:tan;">Data Sources</h2>
             <p>&#9830;<a href="http://www.wikipedia.com/">Wikipedia</a>: total medal count per country for each of the games </p>
             <p>&#9830;<a href="https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results/discussion/264987">Kaggle</a>: Competitor:information and medals won per competitor </p>
@@ -75,7 +85,7 @@
             <h2 style="color:tan;">Data Processing Strategy</h2>
             <p>A number of challeges presented decisions the group needed to make regarding the scope of the analysis. With regard to the two seasons of the Olympic Games, we chose to analyze both seasons separately believing that the patterns of strong countries vs. weaker countries would be significantly different to potential skew the results if they were analyzed together. Due to the limitations of the data on population and GDP, the group decided to limit the date range for the both seasons' games from 1960 to 2018, reserving the 2020 summer games in Tokyo (played in 2021) and the 2022 winter games to be used as proof of concept. Additionally, the group decided that in team events, only one medal will count (each individual player gets a medal) and only one player will count in the competitor count.</p>
             <h2 style="color:tan;">Olympic Analysis Results</h2>
-            
+<!-------------------------------------------------------------------------------------- CHART VISUALIZATION SECTION --------------------------------------------------------------------------------------->
         </div>
       <div class="col-md-5">
         <div id="bar-plot"></div>
@@ -93,11 +103,10 @@
       </div>
     </div>
   </div>
-
+<!-------------------------------------------------------------------------------------------- PLOTLY AND D3 LINKS ----------------------------------------------------------------->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  
-  <!-- <script src="plots.js"></script> -->
+  <!--------------------------------------------------------------------- ---------------------JAVASCRIPT AND CSS ------------------------------------------------------------------->
   <script src="static/js/charts.js"></script>
   <script src="static/js/medal_count.js"></script>
   <script src="static/css/style.css"></script>
