@@ -10,6 +10,18 @@ CREATE TABLE Olympic_Project (
 	Host VARCHAR
 );
 
+-- Creates athlete count table
+DROP TABLE IF EXISTS athlete_count;
+
+CREATE TABLE athlete_count (
+	keyid INTEGER PRIMARY KEY,
+	noc VARCHAR,
+	year INTEGER,
+	season VARCHAR,
+	host INTEGER,
+	competitor_count REAL
+);
+
 -- Creates country identification table
 DROP TABLE IF EXISTS Countries;
 
@@ -65,3 +77,4 @@ SELECT * FROM gdp;  -- 19496 rows
 SELECT * FROM medalcount; -- 1329 rows
 SELECT * FROM olympic_project; -- 205127 rows
 SELECT * FROM population; -- 12139
+SELECT * FROM athlete_count; --3837

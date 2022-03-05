@@ -4,6 +4,9 @@
 # Folder with unused files
 Unused_files/
 
+# Config file
+config.py
+
 .DS_Store
 ~$*.xlsx
 
