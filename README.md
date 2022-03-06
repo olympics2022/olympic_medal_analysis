@@ -163,12 +163,14 @@ The Training/Testing Score of the Balanced Random Forest classifier and Easy Ems
 
 -Summer Scores Balanced Random Forest classifier
 ![Summer_Scores_BRFC](https://user-images.githubusercontent.com/88675415/156945784-c3a204fb-8445-444a-9f8e-35102b274537.PNG)
+
 -Summer Scores Easy Emsemble classifier
 ![Summer_Scores_EEC](https://user-images.githubusercontent.com/88675415/156945867-05a35f0e-4d59-4969-8a2f-230cad740b57.png)
 
 
 -Winter Scores Balanced Random Forest classifier
 ![Winter_Scores_BRFC](https://user-images.githubusercontent.com/88675415/156945956-e96cf821-c8cb-4166-926e-20cf16f40c9d.png)
+
 -Winter Scores Easy Emsemble classifier
 ![Winter_Scores_BRFC](https://user-images.githubusercontent.com/88675415/156946007-30e99858-c92c-43bc-b4ef-da5d0cb2841f.png)
 
