@@ -104,6 +104,20 @@ The results of the linear regression models are shown below:
 
 [Summer Linear Regression Plots]
 
+ #### Summer Linear Regression Analysis
+ 
+ - Summer Athlete Share
+![Summer_athlete_share_LR](https://github.com/olympics2022/olympic_medal_analysis/blob/main/Images/Summer_athlete_share_LR.png)
+This analysis tested the impact of the percentage of athletes participating in the olympics from each country on the percent of the total medals awarded that were won by that country. The results of this Linear Regression analysis is an R-squared value of 0.660, meaning that 66 percent of the variance in share of medals won is explained by the share of athletes by country. With a p-value less than 0.05, athlete share has a statistically significant impact on medal share.
+
+ - Summer GDP per Capita
+![Summer_GDP_LR](https://github.com/olympics2022/olympic_medal_analysis/blob/main/Images/Summer_GDP_LR.png)
+This analysis tested the impact of GDP per Capita of participating countries on the percent of the total medals awarded that were won by that country. The results of this Linear Regression analysis is an R-squared value of 0.048, meaning that 4.8 percent of the variance in share of medals won is explained by GDP per Capita of a given country. With a p-value less than 0.05, GDP per capita has a statistically significant impact on medal share.
+
+ - Summer Population
+![Summer_Population_LR](https://github.com/olympics2022/olympic_medal_analysis/blob/main/Images/Summer_Population_LR.png)
+This analysis tested the impact of population of participaing countries on the percent of the total medals awarded that were won by that country. We found that by taking the natural log of population, we achieved better results from the linear regression analysis. The results of this analysis is an R-squared value of 0.121, meaning that 12.1 percent of the variance in share of medals won is explained by the natural log of population of a participating country. With a p-value less than 0.05, the natural log of population has a statistcally significant impact on medal share.
+
  #### Winter Linear Regression Analysis
  
  - Winter Athlete Share
