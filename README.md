@@ -55,8 +55,9 @@ The purpose of this project is, as selected by the members of the team, to deter
 A number of challeges presented decisions the group needed to make regarding the scope of the analysis.  With regard to the two seasons of the Olympic Games, we chose to
 analyze both seasons separately believing that the patterns of strong countries vs. weaker countries would be significantly different to potential skew the results if they
 were analyzed together.  Due to the limitations of the data on population and GDP, the group decided to limit the date range for the both seasons' games from 1960 to 2018,
-reserving the 2020 summer games in Tokyo (played in 2021) and the 2022 winter games to be used as proof of concept.  Additionally, the group decided that in team events,
-only one medal will count (each individual player gets a medal) and only one player will count in the competitor count.
+reserving the 2020 summer games in Tokyo (played in 2021) and the 2022 winter games to be used as proof of concept.  
+
+Additionally, the group decided that in team events, only one medal will count (each individual competitor gets a medal) and only one competitor will count in the competitor count. The decision was made to only count one compeititor from each team as the dataset we used to get an athlete count for each country in each of the olympics listed each member of a team. By including each of those members, the data would have been skewed as each member would have won a medal but only one medal for a team counts in the final medal count for each olympics. The goal was to filter the dataset to only count medal opportunities. This required using Jupyter Notebook to filter the athlete dataset for each team participating in a traditional team sport (basketball, hockey, volleyball, etc...) and dropping all team members but one from each team event in the olympics. Additionally, the competitors that competed in events that are not traditional team sports also had to be filtered out. Examples of non-traditional team sports include doubles tennis, track and field relays, team rowing, etc... To filter duplicates from these events, the dataset was filtered by events that contained words such as doubles, team, two-man, etc... After the traditional team sports and non-traditional team sports were filtered, we were able to get an accurate count of medal opportunities for each country in each of the olympics in the dataset.
 
 The data collected will be organized in the following graphical DBD map (this and the text script varients can be found [here](/DataBaseMap))
 
@@ -103,13 +104,29 @@ The results of the linear regression models are shown below:
 
 [Summer Linear Regression Plots]
 
-[Winter Linear Regression Plots]
+ #### Winter Linear Regression Analysis
+ 
+ - Winter Athlete Share
+![Winter_athlete_share_LR](https://user-images.githubusercontent.com/90737940/156901398-79f79bdf-81e1-42c8-badb-11d22c031238.png)
+This analysis tested the impact of the percentage of athletes participating in the olympics from each country on the percent of the total medals awarded that were won by that country. The results of this Linear Regression analysis is an R-squared value of 0.550, meaning that 55 percent of the variance in share of medals won is explained by the share of athletes by country. With a p-value less than 0.05, athlete share has a statistically significant impact on medal share.
+
+ - Winter GDP per Capita
+![Winter_GDP_LR](https://user-images.githubusercontent.com/90737940/156901693-76144d9e-897d-4e4b-a1a6-fcf93c3cdb03.png)
+This analysis tested the impact of GDP per Capita of participating countries on the percent of the total medals awarded that were won by that country. The results of this Linear Regression analysis is an R-squared value of 0.130, meaning that 13 percent of the variance in share of medals won is explained by GDP per Capita of a given country. With a p-value less than 0.05, GDP per capita has a statistically significant impact on medal share.
+
+ - Winter Population
+![Winter_Population_LR](https://user-images.githubusercontent.com/90737940/156901770-357fee0e-19a2-4d60-99d8-6a8b6ad0438f.png)
+This analysis tested the impact of population of participaing countries on the percent of the total medals awarded that were won by that country. We found that by taking the natural log of population, we achieved better results from the linear regression analysis. The results of this analysis is an R-squared value of 0.028, meaning that 2.8 percent of the variance in share of medals won is explained by the natural log of population of a participating country. With a p-value less than 0.05, the natural log of population has a statistcally significant impact on medal share.
 
 The results of the multi-linear regression model is shown below:
 
 [Summer Multi-linear Regression Plot]
 
-[Winter Multi-linear Regression Plot]
+#### Winter Multiple Linear Regression
+
+This analysis tested the impact of the natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country. The results of this analysis is an R-squared value of 0.573, meaning that 57.3 percent of the variance in the share of medals won by each country is explained by those four variables. Each variable has a p-value less than 0.05, meaning each has a statistically significant impact on medal share. The summary of the analysis can be seen below.
+
+<img width="533" alt="Winter_MLR_Summary" src="https://user-images.githubusercontent.com/90737940/156902110-39e67ecc-4c95-45e6-a83c-9d0428b0ea96.png">
 
 The clustering results from the K-Means unsupervised learning model:
 
@@ -122,6 +139,14 @@ The Training/Testing Score of the Balanced Random Forest classifier and Easy Ems
 [Summer Scores for both models]
 
 [Winter Scores for both models]
+
+Multiple Linear Regression Machine Learning Model:
+
+#### Winter Multiple Linear Regression Machine Learning Model
+
+A Multiple Linear Regression Machine Learning analysis was also tested. natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country using the SKlearn train_test_split model. The results of this analysis was an R-squared value of 0.563 on the test data, meaning the model was able to explain 56.3 percent of the variance of in the share of medals won by each country. This aligns with the standard Multiple Linear Regression tested (discussed above). Five countries were selected from the 2022 Winter Olympics in China to test this data on. Those countries are the United States, Norway, Italy, China, and Japan. The chart below shows the actual medal count and the predicted medal count using the machine learning model developed for the five selected countries.
+
+![2022_Prediced_vs_actual](https://user-images.githubusercontent.com/90737940/156902700-d92b678c-e775-46d3-9ad6-c2cf9dd7b3ef.png)
 
 ## Summary
 
