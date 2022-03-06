@@ -136,6 +136,12 @@ The results of the multi-linear regression model is shown below:
 
 [Summer Multi-linear Regression Plot]
 
+#### Summer Multiple Linear Regression
+
+This analysis tested the impact of the natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country. The results of this analysis is an R-squared value of 0.662, meaning that 66.2 percent of the variance in the share of medals won by each country is explained by those four variables. Each variable has a p-value less than 0.05, meaning each has a statistically significant impact on medal share. The summary of the analysis can be seen below.
+
+![Summer_MLR_Summary](https://user-images.githubusercontent.com/88675415/156944573-e3279264-2c7f-44c0-bf15-047f9d0e5632.png)
+
 #### Winter Multiple Linear Regression
 
 This analysis tested the impact of the natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country. The results of this analysis is an R-squared value of 0.573, meaning that 57.3 percent of the variance in the share of medals won by each country is explained by those four variables. Each variable has a p-value less than 0.05, meaning each has a statistically significant impact on medal share. The summary of the analysis can be seen below.
