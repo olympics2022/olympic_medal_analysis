@@ -104,6 +104,20 @@ The results of the linear regression models are shown below:
 
 [Summer Linear Regression Plots]
 
+ #### Summer Linear Regression Analysis
+ 
+ - Summer Athlete Share
+![Summer_athlete_share_LR](https://github.com/olympics2022/olympic_medal_analysis/blob/main/Images/Summer_athlete_share_LR.png)
+This analysis tested the impact of the percentage of athletes participating in the olympics from each country on the percent of the total medals awarded that were won by that country. The results of this Linear Regression analysis is an R-squared value of 0.660, meaning that 66 percent of the variance in share of medals won is explained by the share of athletes by country. With a p-value less than 0.05, athlete share has a statistically significant impact on medal share.
+
+ - Summer GDP per Capita
+![Summer_GDP_LR](https://github.com/olympics2022/olympic_medal_analysis/blob/main/Images/Summer_GDP_LR.png)
+This analysis tested the impact of GDP per Capita of participating countries on the percent of the total medals awarded that were won by that country. The results of this Linear Regression analysis is an R-squared value of 0.048, meaning that 4.8 percent of the variance in share of medals won is explained by GDP per Capita of a given country. With a p-value less than 0.05, GDP per capita has a statistically significant impact on medal share.
+
+ - Summer Population
+![Summer_Population_LR](https://github.com/olympics2022/olympic_medal_analysis/blob/main/Images/Summer_Population_LR.png)
+This analysis tested the impact of population of participaing countries on the percent of the total medals awarded that were won by that country. We found that by taking the natural log of population, we achieved better results from the linear regression analysis. The results of this analysis is an R-squared value of 0.121, meaning that 12.1 percent of the variance in share of medals won is explained by the natural log of population of a participating country. With a p-value less than 0.05, the natural log of population has a statistcally significant impact on medal share.
+
  #### Winter Linear Regression Analysis
  
  - Winter Athlete Share
@@ -122,6 +136,12 @@ The results of the multi-linear regression model is shown below:
 
 [Summer Multi-linear Regression Plot]
 
+#### Summer Multiple Linear Regression
+
+This analysis tested the impact of the natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country. The results of this analysis is an R-squared value of 0.662, meaning that 66.2 percent of the variance in the share of medals won by each country is explained by those four variables. Each variable has a p-value less than 0.05, meaning each has a statistically significant impact on medal share. The summary of the analysis can be seen below.
+
+![Summer_MLR_Summary](https://user-images.githubusercontent.com/88675415/156944573-e3279264-2c7f-44c0-bf15-047f9d0e5632.png)
+
 #### Winter Multiple Linear Regression
 
 This analysis tested the impact of the natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country. The results of this analysis is an R-squared value of 0.573, meaning that 57.3 percent of the variance in the share of medals won by each country is explained by those four variables. Each variable has a p-value less than 0.05, meaning each has a statistically significant impact on medal share. The summary of the analysis can be seen below.
@@ -130,15 +150,29 @@ This analysis tested the impact of the natural log of population, percentage of 
 
 The clustering results from the K-Means unsupervised learning model:
 
-[Summer K-Means Clustering Plot]
 
-[Winter K-Means Clustering Plot]
+-Summer K-Means
+![Summer_K_Means](https://user-images.githubusercontent.com/88675415/156945611-19fccbc6-2045-4c5a-b0ee-61276b524ed6.png)
+
+
+-Winter K-Means
+![Winter_K_Means](https://user-images.githubusercontent.com/88675415/156945688-ffba6c4c-5d7c-4fd4-b8dc-5676dea87fd6.png)
 
 The Training/Testing Score of the Balanced Random Forest classifier and Easy Emsemble classifier models:
 
-[Summer Scores for both models]
 
-[Winter Scores for both models]
+-Summer Scores Balanced Random Forest classifier
+![Summer_Scores_BRFC](https://user-images.githubusercontent.com/88675415/156945784-c3a204fb-8445-444a-9f8e-35102b274537.PNG)
+
+-Summer Scores Easy Emsemble classifier
+![Summer_Scores_EEC](https://user-images.githubusercontent.com/88675415/156945867-05a35f0e-4d59-4969-8a2f-230cad740b57.png)
+
+
+-Winter Scores Balanced Random Forest classifier
+![Winter_Scores_BRFC](https://user-images.githubusercontent.com/88675415/156945956-e96cf821-c8cb-4166-926e-20cf16f40c9d.png)
+
+-Winter Scores Easy Emsemble classifier
+![Winter_Scores_BRFC](https://user-images.githubusercontent.com/88675415/156946007-30e99858-c92c-43bc-b4ef-da5d0cb2841f.png)
 
 Multiple Linear Regression Machine Learning Model:
 
