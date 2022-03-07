@@ -172,7 +172,7 @@ The Training/Testing Score of the Balanced Random Forest classifier and Easy Ems
 ![Winter_Scores_BRFC](https://user-images.githubusercontent.com/88675415/156945956-e96cf821-c8cb-4166-926e-20cf16f40c9d.png)
 
 -Winter Scores Easy Emsemble classifier
-![Winter_Scores_BRFC](https://user-images.githubusercontent.com/88675415/156946007-30e99858-c92c-43bc-b4ef-da5d0cb2841f.png)
+![Winter_Scores_EEC](https://user-images.githubusercontent.com/88675415/157065653-ab9d05fb-8236-4d0a-a72e-0d761ebc987d.png)
 
 Multiple Linear Regression Machine Learning Model:
 
