@@ -148,30 +148,36 @@ This analysis tested the impact of the natural log of population, percentage of 
 
 <img width="533" alt="Winter_MLR_Summary" src="https://user-images.githubusercontent.com/90737940/156902110-39e67ecc-4c95-45e6-a83c-9d0428b0ea96.png">
 
-The clustering results from the K-Means unsupervised learning model:
+#### The clustering results from the K-Means unsupervised learning model:
 
 
 -Summer K-Means
+
 ![Summer_K_Means](https://user-images.githubusercontent.com/88675415/156945611-19fccbc6-2045-4c5a-b0ee-61276b524ed6.png)
 
 
 -Winter K-Means
+
 ![Winter_K_Means](https://user-images.githubusercontent.com/88675415/156945688-ffba6c4c-5d7c-4fd4-b8dc-5676dea87fd6.png)
 
-The Training/Testing Score of the Balanced Random Forest classifier and Easy Emsemble classifier models:
+#### The Training/Testing Score of the Balanced Random Forest Classifier and Easy Ensemble Classifier models:
 
 
 -Summer Scores Balanced Random Forest classifier
+
 ![Summer_Scores_BRFC](https://user-images.githubusercontent.com/88675415/156945784-c3a204fb-8445-444a-9f8e-35102b274537.PNG)
 
 -Summer Scores Easy Emsemble classifier
+
 ![Summer_Scores_EEC](https://user-images.githubusercontent.com/88675415/156945867-05a35f0e-4d59-4969-8a2f-230cad740b57.png)
 
 
 -Winter Scores Balanced Random Forest classifier
+
 ![Winter_Scores_BRFC](https://user-images.githubusercontent.com/88675415/156945956-e96cf821-c8cb-4166-926e-20cf16f40c9d.png)
 
 -Winter Scores Easy Emsemble classifier
+
 ![Winter_Scores_EEC](https://user-images.githubusercontent.com/88675415/157065653-ab9d05fb-8236-4d0a-a72e-0d761ebc987d.png)
 
 Multiple Linear Regression Machine Learning Model:
