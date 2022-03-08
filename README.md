@@ -100,11 +100,7 @@ Easy Ensemble classifier models.
 
 ## Results
 
-The results of the linear regression models are shown below:
-
-[Summer Linear Regression Plots]
-
- #### Summer Linear Regression Analysis
+#### Summer Linear Regression Analysis
  
  - Summer Athlete Share
 ![Summer_athlete_share_LR](https://github.com/olympics2022/olympic_medal_analysis/blob/main/Images/Summer_athlete_share_LR.png)
@@ -130,11 +126,8 @@ This analysis tested the impact of GDP per Capita of participating countries on 
 
  - Winter Population
 ![Winter_Population_LR](https://user-images.githubusercontent.com/90737940/156901770-357fee0e-19a2-4d60-99d8-6a8b6ad0438f.png)
-This analysis tested the impact of population of participaing countries on the percent of the total medals awarded that were won by that country. We found that by taking the natural log of population, we achieved better results from the linear regression analysis. The results of this analysis is an R-squared value of 0.028, meaning that 2.8 percent of the variance in share of medals won is explained by the natural log of population of a participating country. With a p-value less than 0.05, the natural log of population has a statistcally significant impact on medal share.
+This analysis tested the impact of population of participating countries on the percent of the total medals awarded that were won by that country. We found that by taking the natural log of population, we achieved better results from the linear regression analysis. The results of this analysis is an R-squared value of 0.028, meaning that 2.8 percent of the variance in share of medals won is explained by the natural log of population of a participating country. With a p-value less than 0.05, the natural log of population has a statistcally significant impact on medal share.
 
-The results of the multi-linear regression model is shown below:
-
-[Summer Multi-linear Regression Plot]
 
 #### Summer Multiple Linear Regression
 
@@ -190,7 +183,15 @@ A Multiple Linear Regression Machine Learning analysis was also tested. natural 
 
 ## Summary
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis nunc non imperdiet auctor. Suspendisse vitae massa nulla. Cras lacinia placerat urna, pretium tempor diam. Vivamus quis sem id quam consequat luctus. Donec aliquam odio massa, id feugiat mauris gravida non. Sed vel pharetra mauris, in semper ante. Nunc dictum aliquam finibus. Curabitur porta, lacus nec efficitur auctor, magna ligula pharetra eros, sed mollis nisl urna at enim. Nam posuere sem quis nisl mollis tempor. Ut mollis consectetur lectus ut ornare. Quisque aliquam lacus odio, eu lobortis ipsum condimentum ut. Curabitur a felis elementum, accumsan nulla non, placerat libero. Sed porta bibendum sapien. Etiam iaculis arcu nec commodo placerat. Sed metus magna, posuere vitae sapien vitae, pretium accumsan dolor.
+In looking at the single-variable, linear regressions we can see that while all the variables tested (athlete share, population, and GDP per capita) had a significant impact on medal share for both the Winter and Summer Olympics, the range for the R^2 valuse (combining both sets) was from 2.8% - 66%.  It is interesting to note that by far the most salient factor in the medal share was the number of competitors sent to the games (Summer: 66%, Winter: 55%).  In addition, it's worth noting that the summer games it was population that had the next most impact on the count whereas GDP was the second most impact on the winter games.  This may indicate that wealth has a greater significance for the winter games rather than the summer games.  In any case, even if we take the best R^2 result of 66%, this doesn't give us enough statistical power to claim that one variable alone can predict the medal count in a given Olympic year.
+
+It was postulated then that maybe all variables combined may have better predictive power than any one variable alone.  Added to the three variables above, we added a boolean variable, whether the country was hosting that year or not, which didn't lend itself well to a single-variable, linear regression.  The multiple linear regression gave us an R^2 of 66.2% for summer and an R^2 of 57.3% for winter.  These numbers represent only a slight improvement on population alone.
+
+In an effort to increase the value of the predictability for our models we opted to try a machine learning module for a multiple linear regression on the four variables.  This gave a result not much different than the standard multiple linear regression module.  Seeing as this did not improve our numbers we tried on last approach.
+
+The final thought was to use a K-means unsupervised machine learning module and funnel those clusters into the Random Forest Classifier and Easy Ensemble Classifier machine learning models to see if these variables can still be used for predictability, albeit not in a simple regression.  The Random Forest Classifier module resulted in a accuracy of 97% and a precision of 98% for summer and an accuracy of 98% and a precision of 99%.  This shows a robust prediction model out-performing the Easy Ensemble classifier module.  That module resulted in an accuracy of [ACC] and a precision of [PRE] for summer and an accuracy of [ACC] and a precision of [PRE] for winter.  The Random Forest Classifier approach improved the results of our prediction significantly to something that potentially could be used in the real world.
+
+Our approach however does open up some potential inadequacies.  Particularly glaring is that this approach does not take into account the athletes and their relative skill.  Can we really make a predicition on sports results without that?  In addition our choices in limiting counts to potential medals won and therefore removing all team members but one from all team sports could create artifacts that challenge the results.    
 
 
 ## Getting Started
