@@ -158,20 +158,20 @@ This analysis tested the impact of the natural log of population, percentage of 
 
 -Summer Scores Balanced Random Forest classifier
 
-![Summer_Scores_BRFC](https://user-images.githubusercontent.com/88675415/156945784-c3a204fb-8445-444a-9f8e-35102b274537.PNG)
+![Summer_BRFC_calssif](https://user-images.githubusercontent.com/88675415/157352070-dd77a007-9134-43eb-b844-abc06bb2ce6d.png)
 
 -Summer Scores Easy Emsemble classifier
 
-![Summer_Scores_EEC](https://user-images.githubusercontent.com/88675415/156945867-05a35f0e-4d59-4969-8a2f-230cad740b57.png)
-
+![Summer_EEC_Classif](https://user-images.githubusercontent.com/88675415/157352123-8c3136b0-f533-409b-9abf-beeba4da8fca.PNG)
 
 -Winter Scores Balanced Random Forest classifier
 
-![Winter_Scores_BRFC](https://user-images.githubusercontent.com/88675415/156945956-e96cf821-c8cb-4166-926e-20cf16f40c9d.png)
+![Winter_BRFC_Class](https://user-images.githubusercontent.com/88675415/157352156-b7ff8eb4-994c-4d36-84f8-3ef3d9ffb4e7.png)
 
 -Winter Scores Easy Emsemble classifier
 
-![Winter_Scores_EEC](https://user-images.githubusercontent.com/88675415/157065653-ab9d05fb-8236-4d0a-a72e-0d761ebc987d.png)
+![Winter_EEC_classif](https://user-images.githubusercontent.com/88675415/157352196-c953ea0a-c5d4-4227-ad0a-269396abe253.png)
+
 
 Multiple Linear Regression Machine Learning Model:
 
