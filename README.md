@@ -125,7 +125,7 @@ This analysis tested the impact of the percentage of athletes participating in t
 This analysis tested the impact of GDP per Capita of participating countries on the percent of the total medals awarded that were won by that country. The results of this Linear Regression analysis is an R-squared value of 0.130, meaning that 13 percent of the variance in share of medals won is explained by GDP per Capita of a given country. With a p-value less than 0.05, GDP per capita has a statistically significant impact on medal share.
 
  - Winter Population
-![Winter_Population_LR](https://user-images.githubusercontent.com/90737940/156901770-357fee0e-19a2-4d60-99d8-6a8b6ad0438f.png)
+![Winter_Population_LR](https://user-images.githubusercontent.com/90737940/157361455-c199684b-fb72-43e2-980a-e83171bf3ec3.png)
 This analysis tested the impact of population of participating countries on the percent of the total medals awarded that were won by that country. We found that by taking the natural log of population, we achieved better results from the linear regression analysis. The results of this analysis is an R-squared value of 0.028, meaning that 2.8 percent of the variance in share of medals won is explained by the natural log of population of a participating country. With a p-value less than 0.05, the natural log of population has a statistcally significant impact on medal share.
 
 
@@ -158,26 +158,33 @@ This analysis tested the impact of the natural log of population, percentage of 
 
 -Summer Scores Balanced Random Forest classifier
 
-![Summer_Scores_BRFC](https://user-images.githubusercontent.com/88675415/156945784-c3a204fb-8445-444a-9f8e-35102b274537.PNG)
+![Summer_BRFC_calssif](https://user-images.githubusercontent.com/88675415/157352070-dd77a007-9134-43eb-b844-abc06bb2ce6d.png)
 
 -Summer Scores Easy Emsemble classifier
 
-![Summer_Scores_EEC](https://user-images.githubusercontent.com/88675415/156945867-05a35f0e-4d59-4969-8a2f-230cad740b57.png)
-
+![Summer_EEC_Classif](https://user-images.githubusercontent.com/88675415/157352123-8c3136b0-f533-409b-9abf-beeba4da8fca.PNG)
 
 -Winter Scores Balanced Random Forest classifier
 
-![Winter_Scores_BRFC](https://user-images.githubusercontent.com/88675415/156945956-e96cf821-c8cb-4166-926e-20cf16f40c9d.png)
+![Winter_BRFC_Class](https://user-images.githubusercontent.com/88675415/157352156-b7ff8eb4-994c-4d36-84f8-3ef3d9ffb4e7.png)
 
 -Winter Scores Easy Emsemble classifier
 
-![Winter_Scores_EEC](https://user-images.githubusercontent.com/88675415/157065653-ab9d05fb-8236-4d0a-a72e-0d761ebc987d.png)
+![Winter_EEC_classif](https://user-images.githubusercontent.com/88675415/157352196-c953ea0a-c5d4-4227-ad0a-269396abe253.png)
+
 
 Multiple Linear Regression Machine Learning Model:
 
+#### Summer Multiple Linear Regression Machine Learning Model
+
+A Multiple Linear Regression Machine Learning analysis was also tested. natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country using the SKlearn train_test_split model. The results of this analysis was an R-squared value of 0.732 on the test data, meaning the model was able to explain 73.2 percent of the variance of in the share of medals won by each country. This aligns with the standard Multiple Linear Regression tested (discussed above). Five countries were selected from the 2020 Summer Olympics in Japan to test this data on. Those countries are the United States, Norway, Italy, China, and Japan. The chart below shows the actual medal count and the predicted medal count using the machine learning model developed for the five selected countries.
+
+![2020_Prediced_vs_actual](https://user-images.githubusercontent.com/88675415/157495745-0dc5b5cb-73c4-41b7-ac4b-95ad5f9b062c.png)
+
+
 #### Winter Multiple Linear Regression Machine Learning Model
 
-A Multiple Linear Regression Machine Learning analysis was also tested. natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country using the SKlearn train_test_split model. The results of this analysis was an R-squared value of 0.563 on the test data, meaning the model was able to explain 56.3 percent of the variance of in the share of medals won by each country. This aligns with the standard Multiple Linear Regression tested (discussed above). Five countries were selected from the 2022 Winter Olympics in China to test this data on. Those countries are the United States, Norway, Italy, China, and Japan. The chart below shows the actual medal count and the predicted medal count using the machine learning model developed for the five selected countries.
+A Multiple Linear Regression Machine Learning analysis was also tested. natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country using the SKlearn train_test_split model. The results of this analysis was an R-squared value of 0.752 on the test data, meaning the model was able to explain 75.2 percent of the variance of in the share of medals won by each country. This aligns with the standard Multiple Linear Regression tested (discussed above). Five countries were selected from the 2022 Winter Olympics in China to test this data on. Those countries are the United States, Norway, Italy, China, and Japan. The chart below shows the actual medal count and the predicted medal count using the machine learning model developed for the five selected countries.
 
 ![2022_Prediced_vs_actual](https://user-images.githubusercontent.com/90737940/156902700-d92b678c-e775-46d3-9ad6-c2cf9dd7b3ef.png)
 
@@ -189,7 +196,7 @@ It was postulated then that maybe all variables combined may have better predict
 
 In an effort to increase the value of the predictability for our models we opted to try a machine learning module for a multiple linear regression on the four variables.  This gave a result not much different than the standard multiple linear regression module.  Seeing as this did not improve our numbers we tried on last approach.
 
-The final thought was to use a K-means unsupervised machine learning module and funnel those clusters into the Random Forest Classifier and Easy Ensemble Classifier machine learning models to see if these variables can still be used for predictability, albeit not in a simple regression.  The Random Forest Classifier module resulted in a accuracy of 97% and a precision of 98% for summer and an accuracy of 98% and a precision of 99%.  This shows a robust prediction model out-performing the Easy Ensemble classifier module.  That module resulted in an accuracy of [ACC] and a precision of [PRE] for summer and an accuracy of [ACC] and a precision of [PRE] for winter.  The Random Forest Classifier approach improved the results of our prediction significantly to something that potentially could be used in the real world.
+The final thought was to use a K-means unsupervised machine learning module and funnel those clusters into the Random Forest Classifier and Easy Ensemble Classifier machine learning models to see if these variables can still be used for predictability, albeit not in a simple regression.  The Random Forest Classifier module resulted in a recall of 97% and a precision of 98% for summer and a recall of 98% and a precision of 99%.  This shows a robust prediction model out-performing the Easy Ensemble classifier module.  That module resulted in a recall of 73% and a precision of 54% for summer and a recall of 80% and a precision of 68% for winter.  The Random Forest Classifier approach improved the results of our prediction significantly to something that potentially could be used in the real world.
 
 Our approach however does open up some potential inadequacies.  Particularly glaring is that this approach does not take into account the athletes and their relative skill.  Can we really make a predicition on sports results without that?  In addition our choices in limiting counts to potential medals won and therefore removing all team members but one from all team sports could create artifacts that challenge the results.    
 
