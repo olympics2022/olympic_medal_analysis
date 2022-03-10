@@ -131,7 +131,7 @@ This analysis tested the impact of population of participating countries on the 
 
 #### Summer Multiple Linear Regression
 
-This analysis tested the impact of the natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country. The results of this analysis is an R-squared value of 0.662, meaning that 66.2 percent of the variance in the share of medals won by each country is explained by those four variables. Each variable has a p-value less than 0.05, meaning each has a statistically significant impact on medal share. The summary of the analysis can be seen below.
+This analysis tested the impact of the natural log of population, percentage of athletes participating from each country, host country, and gdp per capita on the percent of the total medals awarded that were won by each country. The results of this analysis is an R-squared value of 0.662, meaning that 66.2 percent of the variance in the share of medals won by each country is explained by those four variables. Amongst the variables only athlete share had a p-value less than 0.05, making it statistically significant. The GDP, lnPopulation and host had p-values larger than 0.05 making them statistically insignificant.
 
 ![Summer_MLR_Summary](https://user-images.githubusercontent.com/88675415/156944573-e3279264-2c7f-44c0-bf15-047f9d0e5632.png)
 
