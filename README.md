@@ -141,38 +141,6 @@ This analysis tested the impact of the natural log of population, percentage of 
 
 <img width="533" alt="Winter_MLR_Summary" src="https://user-images.githubusercontent.com/90737940/156902110-39e67ecc-4c95-45e6-a83c-9d0428b0ea96.png">
 
-#### The clustering results from the K-Means unsupervised learning model:
-
-
--Summer K-Means
-
-![Summer_K_Means](https://user-images.githubusercontent.com/88675415/156945611-19fccbc6-2045-4c5a-b0ee-61276b524ed6.png)
-
-
--Winter K-Means
-
-![Winter_K_Means](https://user-images.githubusercontent.com/88675415/156945688-ffba6c4c-5d7c-4fd4-b8dc-5676dea87fd6.png)
-
-#### The Training/Testing Score of the Balanced Random Forest Classifier and Easy Ensemble Classifier models:
-
-
--Summer Scores Balanced Random Forest classifier
-
-![Summer_BRFC_calssif](https://user-images.githubusercontent.com/88675415/157352070-dd77a007-9134-43eb-b844-abc06bb2ce6d.png)
-
--Summer Scores Easy Emsemble classifier
-
-![Summer_EEC_Classif](https://user-images.githubusercontent.com/88675415/157352123-8c3136b0-f533-409b-9abf-beeba4da8fca.PNG)
-
--Winter Scores Balanced Random Forest classifier
-
-![Winter_BRFC_Class](https://user-images.githubusercontent.com/88675415/157352156-b7ff8eb4-994c-4d36-84f8-3ef3d9ffb4e7.png)
-
--Winter Scores Easy Emsemble classifier
-
-![Winter_EEC_classif](https://user-images.githubusercontent.com/88675415/157352196-c953ea0a-c5d4-4227-ad0a-269396abe253.png)
-
-
 Multiple Linear Regression Machine Learning Model:
 
 #### Summer Multiple Linear Regression Machine Learning Model
@@ -192,13 +160,11 @@ A Multiple Linear Regression Machine Learning analysis was also tested. natural 
 
 In looking at the single-variable, linear regressions we can see that while all the variables tested (athlete share, population, and GDP per capita) had a significant impact on medal share for both the Winter and Summer Olympics, the range for the R^2 valuse (combining both sets) was from 2.8% - 66%.  It is interesting to note that by far the most salient factor in the medal share was the number of competitors sent to the games (Summer: 66%, Winter: 55%).  In addition, it's worth noting that the summer games it was population that had the next most impact on the count whereas GDP was the second most impact on the winter games.  This may indicate that wealth has a greater significance for the winter games rather than the summer games.  In any case, even if we take the best R^2 result of 66%, this doesn't give us enough statistical power to claim that one variable alone can predict the medal count in a given Olympic year.
 
-It was postulated then that maybe all variables combined may have better predictive power than any one variable alone.  Added to the three variables above, we added a boolean variable, whether the country was hosting that year or not, which didn't lend itself well to a single-variable, linear regression.  The multiple linear regression gave us an R^2 of 66.2% for summer and an R^2 of 57.3% for winter.  These numbers represent only a slight improvement on population alone.
+It was postulated then that maybe all variables combined may have better predictive power than any one variable alone.  Added to the three variables above, we added a boolean variable, whether the country was hosting that year or not, which didn't lend itself well to a single-variable, linear regression.  The multiple linear regression gave us an R^2 of 66.2% for summer and an R^2 of 57.3% for winter.
 
-In an effort to increase the value of the predictability for our models we opted to try a machine learning module for a multiple linear regression on the four variables.  This gave a result not much different than the standard multiple linear regression module.  Seeing as this did not improve our numbers we tried on last approach.
+In an effort to increase the value of the predictability for our models we opted to try a machine learning module for a multiple linear regression on the four variables.  When run against the 2014 Winter and 2016 Summer games, the winter averaged a difference of 1.98 medals from actual numbers and the summer averaged a difference of 2.88 medals from actual numbers.  This indicates a limited use of these four variables for predictability but given this isn't a life or death situation, it could still be used to give a general idea of what to expect.  I just wouldn't bet your savings on it without a generous over/under.
 
-The final thought was to use a K-means unsupervised machine learning module and funnel those clusters into the Random Forest Classifier and Easy Ensemble Classifier machine learning models to see if these variables can still be used for predictability, albeit not in a simple regression.  The Random Forest Classifier module resulted in a recall of 97% and a precision of 98% for summer and a recall of 98% and a precision of 99%.  This shows a robust prediction model out-performing the Easy Ensemble classifier module.  That module resulted in a recall of 73% and a precision of 54% for summer and a recall of 80% and a precision of 68% for winter.  The Random Forest Classifier approach improved the results of our prediction significantly to something that potentially could be used in the real world.
-
-Our approach however does open up some potential inadequacies.  Particularly glaring is that this approach does not take into account the athletes and their relative skill.  Can we really make a predicition on sports results without that?  In addition our choices in limiting counts to potential medals won and therefore removing all team members but one from all team sports could create artifacts that challenge the results.    
+Our approach however does open up some potential inadequacies.  Particularly glaring is that this approach does not take into account the athletes and their relative skill.  The models accuracy definitely has room for improvement and that would definitely be and source for new data.  In addition our choices in limiting counts to potential medals won and therefore removing all team members but one from all team sports could have created artifacts that would challenge the results.    
 
 
 ## Getting Started
