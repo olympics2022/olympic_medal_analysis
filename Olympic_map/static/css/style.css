@@ -1,0 +1,92 @@
+html,
+body,
+#mapid {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.topnav{
+  overflow: hidden;
+  width: 100%;
+  height: 25px;
+  margin: auto;
+  background-color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Links inside the navbar bg hover positions */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+/* Change background on mouse-over */
+.topnav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+.topnav ul li {
+  list-style: none;
+  display: inline-block;
+  margin:0 20px;
+  position: relative;
+} 
+.topnav ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+} 
+
+/* ICON BAR FOR NAV */
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #555; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #04AA6D; /* Add an active/current color */
+}
+
+/* .legend {
+  padding: 10px;
+  line-height: 18px;
+  color: #555;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+} */
