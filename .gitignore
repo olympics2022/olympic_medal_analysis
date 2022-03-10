@@ -13,6 +13,14 @@ Population vs Medal Share.pdf
 Population vs Medal Share.png
 Summer_GDP_LR.png
 
+#JSON
+adding_json __geojson.ipynb
+Clean_Country_population.json
+Clean_gdp_.json
+Convert_to_json.ipynb
+countries_preprocessed.json
+data.json
+
 # Config file
 config.py
 
