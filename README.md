@@ -40,7 +40,7 @@ The purpose of this project is, as selected by the members of the team, to deter
   * Plotly
 * PostGres / SQL
 * HTML
-* JavaScript
+* Tableau
 
 ## Project Description
 
